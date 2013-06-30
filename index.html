@@ -11,7 +11,9 @@
 </style>
 <link rel="alternate" type="application/rss+xml" title="RSS" href="/api/get_review/rss/" />
 <link rel="alternate" media="handheld" href="http://m.snoway.jp/" />
-<script type="text/javascript" src="/js/read_flash.js"></script>
+<script type="text/javascript" src="js/read_flash.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.powertip.min.js"></script>
 </head>
 <body>
 
@@ -32,6 +34,12 @@ GA_googleAddSlot("ca-pub-7399110747853108", "snoway_all_position1_300x250");
 <script type='text/javascript'>
 GA_googleFetchAds();
 </script>
+<script type='text/javascript'>
+jQuery(function($){
+  $('.powertip').powerTip();
+});
+</script>
+
 <div class="clear">
   <p id="logo"><a href="/"><img src="/img/common/hdr_logo.jpg" alt="snoway スノーウェイ" /></a></p>
   <div id="login">
@@ -47,7 +55,7 @@ GA_googleFetchAds();
     </tr>
     <tr>
       <td class="taR">
-<a href="/my/login/?url=http%3A%2F%2Fsnoway.jp%2F" rel="nofollow,noindex"><img src="/img/common/btn/btn_login.gif" alt="ログイン" /></a>
+<a href="/my/login/?url=http%3A%2F%2Fsnoway.jp%2F" rel="nofollow,noindex"><img src="/img/common/btn/btn_login.gif" alt="ログイン" title="powertip" class="powertip" /></a>
       </td>
     </tr>
     </table>
