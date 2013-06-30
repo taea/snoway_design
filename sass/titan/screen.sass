@@ -34,25 +34,22 @@
 
 body
   text-align: center
-  font-size: 80%
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro W3", "Arial", "ＭＳ Ｐゴシック", Helvetica, sans-serif
-  background: #eeeeee url(/img/common/body_bg.gif) repeat-y center top
+  font-size: 13px
+  +main-font
+  background: white
   color: #444
+  line-height: 1.6
 
-ul,li
-  list-style-type: none
-
-.clear,
-#hdr-description
+.clear
   zoom: 100%
 
-.clear:after,
-#hdr-description:after
+.clear:after
   content: "."
   clear: both
   height: 0
   display: block
   visibility: hidden
+  line-height: 1.6
 
 .hid
   display: none
@@ -67,24 +64,23 @@ hr
   border: none
 
 /* リンク色設定
-a:visited
-  color: #3333CC
-  text-decoration: none
-
-a:active
-  color: #3333CC
-  text-decoration: underline
-
-a:link
-  color: #3333CC
-  text-decoration: none
-
-a:hover
-  color: #FF3333
-  text-decoration: underline
+a
+  +transition-duration(.3s)
+  &:visited
+    color: $link-color
+    text-decoration: none
+  &:active
+    color: $hover-color
+    text-decoration: none
+  &:link
+    color: $link-color
+    text-decoration: none
+  &:hover
+    color: $hover-color
+    text-decoration: none
 
 span.err
-  color: red
+  color: $red
   font-size: 90%
   display: block
 
@@ -100,8 +96,8 @@ img
  * -----------------------------------------------------
 
 #snoway-wrap
-  width: 1000px
-  margin: auto
+  width: $width
+  margin: 0 auto
   text-align: left
 
 /* ヘッダーディスクリプション
@@ -123,9 +119,14 @@ img
   margin: 5px 10px 10px 5px
 
 #header
-  width: 967px
+  width: 100%
   margin: auto
-  background: transparent url(/img/common/hdr_bg.gif) no-repeat left top
+  +clearfix
+  background: $header-color
+
+.header-inner
+  width: $width
+  margin: 0 auto
 
 #logo
   width: 313px
@@ -176,21 +177,36 @@ img
   margin-right: 5px
 
 /* グローバルメニュー
-#hdrMenu li
-  width: 87px
-  float: left
+.hdrMenu-wrapper
+  width: 100%
+  background: $main-color
+  +clearfix
 
-#hdrMenu li.menuHome
-  width: 93px
+#hdrMenu
+  width: $width
+  margin: 0 auto
+  li
+    float: left
+    a
+      color: white
+      display: inline-block
+
+.dropdown-content
+  display: none
+  
 
 /* -------------------------------------------------------
  * フッター
  * -----------------------------------------------------
 
 #footer
-  text-align: right
+  text-align: left
   margin-top: 15px
-  font-size: 90%
+  background: $header-color
+
+.footer-inner
+  width: $width
+  margin: 0 auto
 
 #footer address
   font-style: normal
@@ -224,26 +240,29 @@ img
  * -----------------------------------------------------
 
 #maincontent
-  margin: 10px 20px 20px 20px
+  width: $width
+  +clearfix
+  margin: 0 auto
+  text-align: left
 
 #maincontent-left
-  width: 750px
+  width: $main-width
   float: left
 
 #maincontent-right
-  width: 200px
+  width: $side-width
   float: right
 
 #main
-  width: 650px
+  width: $main-width
   float: left
 
 #sub
-  width: 300px
+  width: $side-width
   float: right
 
 #maincontent.col1 #main
-  width: 960px
+  width: $width
 
 #ttl1
   background: transparent url(/img/common/ttl_bg1.gif) no-repeat left top
