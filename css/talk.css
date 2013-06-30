@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：talk.css
+　概要：SNOWAY TALKのCSSに関する記述をしています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * メニュー
+ * ----------------------------------------------------- */
+
+#talkAll ul#talkMenu{
+	border-bottom: 2px solid #507cd3;
+}
+#talkSki ul#talkMenu{
+	border-bottom: 2px solid #7535F6;
+}
+#talkBrd ul#talkMenu{
+	border-bottom: 2px solid #00A9C5;
+}
+#talkGer ul#talkMenu{
+	border-bottom: 2px solid #FF7F00;
+}
+#talkQa ul#talkMenu{
+	border-bottom: 2px solid #29DE0B;
+}
+#talkOth ul#talkMenu{
+	border-bottom: 2px solid #F2008F;
+}
+#talkAll .ttlL{
+	border-left: 5px solid #507cd3 !important;
+}
+#talkSki .ttlL{
+	border-left: 5px solid #7535F6 !important;
+}
+#talkBrd .ttlL{
+	border-left: 5px solid #00A9C5 !important;
+}
+#talkGer .ttlL{
+	border-left: 5px solid #FF7F00 !important;
+}
+#talkQa .ttlL{
+	border-left: 5px solid #29DE0B !important;
+}
+#talkOth .ttlL{
+	border-left: 5px solid #F2008F !important;
+}
+ul#talkMenu li{
+	float: left;
+	width: 109px;
+}
+ul#talkMenu li img{
+	margin-right: 2px;
+	vertical-align: bottom;
+}
+ul#talkMenu li img.off{
+	margin-top: 2px;
+}
+ul#talkMenu li.all{
+	width: 107px;
+}
+ul#talkMenu li.oth{
+	width: 105px;
+}
+ul#talkMenu li.oth img{
+	margin-right: 0;
+}
+
+
+/* -------------------------------------------------------
+ * EACH
+ * ----------------------------------------------------- */
+
+#talkTitle{
+	background: #ddd;
+	padding: 5px 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 1px;
+	font-size: 120%;
+}
+#talkTitle img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+#talkDetail{
+	padding: 10px;
+	background: #efefef;
+	border-bottom: 1px solid #ccc;
+}
+#talkDetail .L{
+	float: left;
+	width: 420px;
+	padding: 0 9px 0 0;
+	border-right: 1px solid #ccc;
+	line-height: 1.6;
+}
+#talkDetail .R{
+	float: right;
+	width: 180px;
+	padding: 0 0 0 10px;
+}
+#talkDetail .R .RL{
+	float: left;
+	width: 50px;
+}
+#talkDetail .R .RR{
+	float: right;
+	width: 125px;
+}
+#talkResBtn{
+	padding: 10px;
+	background: #efefef;
+	border-bottom: 1px solid #ddd;
+}
+#talkResBtn p,#talkResBtn dl,#talkResBtn dt,#talkResBtn dd,#talkResBtn ul,#talkResBtn li{
+	float: left;
+}
+#talkResBtn p img{
+	margin-right: 15px;
+}
+#talkResBtn dl{
+	margin-top: 3px;
+}
+#talkResBtn li img{
+	margin-left: 5px;
+}
+
+
+.talkRes h4{
+	background: #f8f8f8;
+	padding: 10px 10px 10px 10px;
+	font-size: 120%;
+}
+.rescheck h4{
+	background: #eee;
+}
+.talkRes h4 img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.talkRes h4 span.star{
+	margin-left: 5px;
+}
+.talkRes h4 span.star img{
+	margin-right: 0;
+}
+.talkResD{
+	padding: 10px;
+	background: #f8f8f8;
+	line-height: 1.6;
+}
+.rescheck .talkResD{
+	background: #eee;
+}
+.talkResD .L{
+	float: left;
+	width: 420px;
+	padding: 0 9px 0 0;
+	border-right: 1px solid #ccc;
+}
+.talkResD .R{
+	float: right;
+	width: 180px;
+	padding: 0 0 0 10px;
+	line-height: 1.4;
+}
+.talkResD .R .RL{
+	float: left;
+	width: 50px;
+}
+.talkResD .R .RR{
+	float: right;
+	width: 125px;
+}
+.latest{
+	border-top: 1px dotted #ccc;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+
+.regist{
+	margin-bottom: 20px;
+}
+.regist .L{
+	float: left;
+	width: 49%;
+}
+.regist .R{
+	float: right;
+	width: 49%;
+	text-align: right;
+}

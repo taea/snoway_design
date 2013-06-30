@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：present.css
+　概要：/present/のCSSを記述しています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * レイアウト
+ * ----------------------------------------------------- */
+
+.section p{
+	line-height: 140%;
+}
+
+.present-ttl{
+	margin-top: -18px;
+	margin-bottom: 10px;
+}
+.presec .ttlL{
+	border-left: 5px solid #ed2c99;
+}
+
+
+/* -------------------------------------------------------
+ * ゲレンデリスト
+ * ----------------------------------------------------- */
+
+.preList{
+	margin-top: 20px;
+}
+.preList li{
+	margin: 0 10px 7px 0;
+	background: transparent url(/img/common/icn/icn_mountain_16.gif) no-repeat left center;
+	padding-left: 20px;
+	min-height: 16px;
+	float: left;
+	white-space: nowrap;
+}
+.presec .str{
+	color: #cc0000;
+	font-size: 140%;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.quo{
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.whatrecord {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px dotted #ccc;
+}
+
+.whatrecord dt {
+    font-weight: bold;
+    padding-bottom: 5px;
+	background: transparent url(/img/common/icn/icn_mountain_16.gif) no-repeat left top;
+	padding-left: 20px;
+    min-height: 16px;
+}
+
+.whatrecord dd {
+    line-height: 1.2;
+}
+
+.wchance {
+    padding: 10px;
+    border: 1px dotted #ccc;
+}
+
+.preHead {
+	overflow: hidden;
+}
+.preImg {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+
+/* 012 */
+.present012ReviewWrap {
+	overflow: hidden;
+}
+.present012Review {
+	width: 48%;
+	margin-bottom: 15px;
+}
+.present012ReviewL {
+	float: left;
+}
+.present012ReviewR {
+	float: right;
+}
+.present012Gelande {
+	margin: 0 10px 7px;
+	background: transparent url(/img/common/icn/icn_mountain_16.gif) no-repeat left center;
+	padding-left: 20px;
+	min-height: 16px;
+	font-size: 14px;
+}
+.present012Box {
+	padding: 0 10px;
+}
+.present012Ttl {
+	margin-bottom: 5px;
+	white-space: nowrap;
+}
+.present012Desc {
+	font-size: 12px;
+	line-height: 16px;
+	height: 48px;
+	overflow: hidden;
+}
+.present012Sub {
+	margin-top: 5px;
+}
+.present012Sub li {
+	display: inline;
+	margin-right: 10px;
+	font-size: 10px;
+	color: #999;
+}
+
+.present012Logo {
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.present012Logo li {
+	float: left;
+	margin: 0 5px 10px;
+}
+
+.present012Btn {
+	margin: 0 100px 50px;
+}
+.present012Btn .buttonBlock {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+}

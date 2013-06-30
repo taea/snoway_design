@@ -1,0 +1,792 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：gelande.css
+　概要：ゲレンデ/gelande/のCSSに関する記述をしています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * レイアウト
+ * ----------------------------------------------------- */
+
+#maincontent-left{
+	width: 750px;
+}
+
+.geL{
+	float: left;
+	width: 250px;
+}
+.geR{
+	float: right;
+	width: 380px;
+}
+.geL2{
+	float: left;
+	width: 430px;
+}
+.geR2{
+	float: right;
+	width: 200px;
+}
+.geL3{
+	width: 265px;
+	float: left;
+}
+.geR3{
+	width: 365px;
+	float: right;
+}
+.geL4{
+	float: left;
+	width: 200px;
+}
+.geR4{
+	float: right;
+	width: 430px;
+}
+.plaL{
+	float: left;
+	width: 400px;
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+.plaR{
+	float: right;
+	width: 210px;
+}
+
+.section{
+	margin-bottom: 20px;
+}
+.geR p{
+	line-height: 160%;
+}
+
+/* -------------------------------------------------------
+ * メニュー
+ * ----------------------------------------------------- */
+
+.geMenu li{
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 0 8px;
+	font-weight: bold;
+	white-space: nowrap;
+    line-height: 1.4;
+}
+.geMenu li.end{
+	border-right: none;
+}
+
+
+/* -------------------------------------------------------
+ * ボックス
+ * ----------------------------------------------------- */
+
+/* 左MAP */
+.geboxM{
+	background: transparent url(/img/common/box/box_gray250.gif) repeat-y left top;
+}
+.geboxB{
+	background: transparent url(/img/common/box/box_gray250_bottom.gif) no-repeat left bottom;
+	padding-bottom: 10px;
+}
+.geboxT{
+	background: transparent url(/img/common/box/box_gray250_top.gif) no-repeat left top;
+	padding: 10px 10px 0 10px;
+}
+
+/* ＴＯＰ写真 */
+.gePhoto li{
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+	margin: 0 6px;
+    display: inline;
+}
+.gePhoto li.geMore{
+	width: 200px;
+	height: 50px;
+	text-align: right;
+	margin-right: 0;
+}
+
+/* クチコミ */
+.geReview li{
+	background: transparent url(/img/common/icn/icn_review_16.gif) no-repeat left center;
+	padding-left: 20px;
+	min-height: 16px;
+	margin-bottom: 5px;
+}
+.geReview li img{
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.geReviewBtn {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.geReviewBtn li.geBtn{
+	float: left;
+	width: 49%;
+}
+.geReviewBtn li.geMore{
+	float: right;
+	width: 49%;
+	text-align: right;
+}
+.geTalk li{
+	margin-bottom: 5px;
+}
+.geTalk li img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.geNews2 li{
+	background: url(/img/common/icn/dot.gif) no-repeat 6px 9px;
+	padding-left: 20px;
+	margin-bottom: 5px;
+}
+.geNews2 li:last-child {
+	margin-bottom: 0;
+}
+
+/* グラフ */
+table.glapf td{
+	padding: 5px 10px;
+	color: #fff;
+	white-space: nowrap;
+}
+table.glapf td.cell1{
+	background: #658cdb;
+}
+table.glapf td.cell2{
+	background: #8fc2f1;
+}
+table.glapf td.cell3{
+	background: #aaaaaa;
+}
+.geGlapf{
+	margin-bottom: 5px;
+}
+.geGlapf dt{
+	float: left;
+	width: 100px;
+	padding-top: 10px;
+}
+.geGlapf dd{
+	float: right;
+	width: 300px;
+}
+.geGlapft{
+	margin-bottom: 5px;
+}
+.geGlapft dt{
+	float: left;
+	width: 50px;
+	padding-top: 10px;
+}
+.geGlapft dd{
+	float: right;
+	width: 300px;
+}
+.geDataList li.list1{
+	float: left;
+	border-right: 1px solid #ccc;
+	padding-right: 5px;
+	margin-right: 5px;
+	font-family: "ＭＳ Ｐゴシック","Osaka",sans-serif;
+	white-space: nowrap;
+}
+.geDataList li.list2{
+	float: left;
+	font-family: "ＭＳ Ｐゴシック","Osaka",sans-serif;
+	white-space: nowrap;
+}
+
+/* -------------------------------------------------------
+ * ホテル
+ * ----------------------------------------------------- */
+
+.hLi{
+	width: 110px;
+	margin: 0 8px 0 7px;
+	float: left;
+}
+* html body .hLi{
+	margin: 0 6px 0 6px;
+}
+.hLi li{
+	margin-bottom: 5px;
+}
+.hImage{
+	border: 1px solid #ddd;
+	padding: 4px;
+}
+.hImage img{
+	vertical-align: bottom;
+}
+.hReserve img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+
+/* -------------------------------------------------------
+ * 天気予報
+ * ----------------------------------------------------- */
+.geWhether{
+	margin: auto;
+	border-collapse: collapse;
+}
+.geWhether th,
+.geWhether td{
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+.geWhether th{
+	background: #eee;
+}
+.geWhether td{
+}
+
+.snowfallUpdate {
+    font-size: 83%;
+    color: #666;
+}
+
+/* -------------------------------------------------------
+ * クチコミ
+ * ----------------------------------------------------- */
+ 
+.geShowL{
+	float: left;
+	width: 49%;
+}
+.geShowR{
+	float: right;
+	width: 49%;
+	text-align: right;
+}
+
+
+/* -------------------------------------------------------
+ * 写真一覧
+ * ----------------------------------------------------- */
+
+.photoListL li{
+	margin-bottom: 5px;
+}
+.photoListL li.photo p{
+	border: 1px solid #ccc;
+	padding: 4px;
+	width: 290px;
+}
+.photoListL li.comment{
+	background: transparent url(/img/common/icn/icn_review_16.gif) no-repeat left center;
+	padding-left: 20px;
+	min-height: 16px;
+}
+.photoListL li.gerande{
+	background: transparent url(/img/common/icn/icn_mountain_16.gif) no-repeat left center;
+	padding-left: 20px;
+	min-height: 16px;
+}
+
+#photoTable td{
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+#photoTable td.L{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#photoTable td.R{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/* -------------------------------------------------------
+ * クーポン
+ * ----------------------------------------------------- */
+
+body#couponBody{
+  background: transparent none;
+  margin: 0;
+  padding: 10px 0;
+  font-size: 80%;
+  text-align: center;
+  font-family: "Arial","ＭＳ Ｐゴシック",sans-serif;
+}
+.coupon{
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+.coupon th,
+.coupon td{
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+.coupon th{
+	background: #f2f2f2;
+	width: 20%;
+}
+.coupon td{
+	width: 80%;
+}
+#couponBox{
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+#couponBox .title{
+	font-size: 160%;
+	margin-bottom: 20px;
+	text-align: center;
+	background: #4676cb;
+	color: #fff;
+	padding: 5px;
+}
+#couponBox .text{
+	margin-bottom: 20px;
+	line-height: 140%;
+}
+
+body#couponBody #couponBox{
+	width: 610px;
+	text-align: left;
+}
+
+
+/* -------------------------------------------------------
+ * 詳細情報
+ * ----------------------------------------------------- */
+
+.stripeTable2 th{
+	font-weight: bold;
+}
+
+.facilityPark th {
+	font-weight: normal;
+	font-size: 70%;
+	width: 10%;
+}
+
+.facilityPark td {
+	text-align: center;
+}
+
+
+/* -------------------------------------------------------
+ * ホテル
+ * ----------------------------------------------------- */
+
+.geHotel .L{
+	float: left;
+	width: 130px;
+}
+.geHotel .R{
+	float: right;
+	width: 490px;
+}
+.geHotel .L p{
+	border: 1px solid #ddd;
+	background: #fff;
+	padding: 4px;
+}
+.geHotel .name{
+	font-size: 130%;
+	padding: 5px 0;
+	border-bottom: 1px solid #ddd;
+}
+.geHotel .address{
+	color: #000;
+}
+.geHotel .distance{
+	border: 1px dotted #333;
+	padding: 5px 5px 5px 25px;
+	font-size: 120%;
+	background: transparent url(/img/common/icon-arrow.gif) no-repeat 5px center;
+}
+.geHotel .distance strong{
+	color: #cc0000;
+}
+
+/* -------------------------------------------------------
+ * ニュース
+ * ----------------------------------------------------- */
+
+.newsList dt{
+	font-size: 120%;
+	font-weight: bold;
+	padding: 10px 10px 5px 30px;
+	background: transparent url(/img/common/icn/icn_mountain_16.gif) no-repeat 10px 10px;
+}
+.newsList dt strong{
+	font-size: 111%;
+}
+.newsList dt span{
+	font-size: 70%;
+	color: #666;
+	margin-left: 10px;
+}
+.newsList dd{
+	line-height: 1.4;
+	padding: 5px 10px 10px;
+}
+.newsList dd.check{
+	background: #ddd; 
+}
+.newsList dt.check{
+	background: #ddd url(/img/common/icn/icn_mountain_16.gif) no-repeat 10px 10px;
+}
+.newsList dd.title{
+	padding: 5px 10px 0 30px;
+	font-size: 120%;
+	background: transparent url(/img/common/icn/icn_review_16.gif) no-repeat 10px 5px;
+}
+.newsList dd.title.check{
+	background: #ddd url(/img/common/icn/icn_review_16.gif) no-repeat 10px 5px;
+}
+.newsList dd img{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.geNews li{
+	background: transparent url(/img/common/icon-arrow.gif) no-repeat left center;
+	padding-left: 15px;
+	margin-bottom: 5px;
+}
+.geNews li span{
+	color: #999;
+	font-size: 80%;
+}
+.geNews2 li .title{
+	font-size: 140%;
+	margin-bottom: 10px;
+	background: transparent url(/img/common/icon-arrow.gif) no-repeat left center;
+	padding-left: 15px;
+}
+.geNews2 li .desc img{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.geNews2 li .desc{
+	line-height: 120%;
+	margin-bottom: 5px;
+}
+
+.geHeader {
+	position:relative;
+}
+.gePoint {
+	position: absolute;
+	right: 10px;
+	bottom: 3px;
+	color: #fff;
+	font-size: 10px;
+	line-height:1;
+}
+.gePoint span {
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-shadow: 0 1px 2px #33c;
+}
+
+
+/* -------------------------------------------------------
+ * TOP
+ * ----------------------------------------------------- */
+
+.boxKin{
+	border: 1px solid #ccc;
+	padding: 10px 5px;
+	background: #fff;
+}
+.keyForm{
+	padding: 3px;
+	margin-bottom: 10px;
+	background: #e9e9e9;
+}
+.keyForm2{
+	padding: 3px;
+	background: #e9e9e9;
+}
+.accessForm{
+	height: 65px;
+	width: 100%;
+}
+.accessForm td{
+	padding: 3px;
+}
+.accessForm td input{
+	margin-right: 3px;
+	vertical-align: middle;
+}
+.accessForm .back1{
+	background: transparent url(/img/gelande/bg_access95.gif) no-repeat left top;
+	width: 95px;
+}
+.accessForm .back2{
+	background: transparent url(/img/gelande/bg_access85.gif) no-repeat left top;
+	width: 85px;
+}
+.accessForm .back3{
+	background: transparent url(/img/gelande/bg_access138.gif) no-repeat left top;
+	width: 138px;
+}
+.kodawari dt{
+	float: left;
+	margin-right: 10px;
+	color: #666;
+	padding-top: 5px;
+}
+.kodawari dd{
+	color: #666;
+}
+.reco{
+	border: 2px solid #ddd;
+	padding: 5px;
+}
+.reco li{
+	background: transparent url(/img/common/icon-arrow.gif) no-repeat left center;
+	padding: 2px 0 2px 15px;
+}
+
+
+/* -------------------------------------------------------
+ * 検索
+ * ----------------------------------------------------- */
+.searchText{
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.searchText strong{
+	color: #cc0000;
+	font-size: 140%;
+	margin: 0 5px;
+}
+
+/* -------------------------------------------------------
+ * 滑走人
+ * ----------------------------------------------------- */
+
+.recordPerson{
+    margin: 0 1px;
+}
+.recordPerson li{
+    float: left;
+    width: 55px;
+    text-align: center;
+}
+
+/* -------------------------------------------------------
+ * サワマネ
+ * ----------------------------------------------------- */
+
+.sawamane{
+	padding: 9px;
+	background: #efefef;
+	border: 1px solid #ccc;
+}
+.sawamane .title{
+	font-size: 120%;
+	color: #cc0000;
+	margin-bottom: 10px;
+}
+.sawamane .L{
+	float: left;
+	width: 50px;
+}
+.sawamane .R{
+	float: right;
+	width: 570px;
+}
+
+
+.openMenu li{
+	float: left;
+	margin-right: 10px;
+}
+
+/* -------------------------------------------------------
+ * 滑走記録
+ * ----------------------------------------------------- */
+.recordBox{
+    line-height: 1.6;
+    padding: 10px;
+}
+.recordBox.check{
+    background: #eee;
+}
+.recordBox .date{
+    margin-bottom: 10px;
+    font-size: 111%;
+}
+.recordBox img.image{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.recordBox .snower{
+    margin-top: 5px;
+    text-align: right;
+}
+.recordBox .snower img{
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+
+/* -------------------------------------------------------
+ * 個別レビュー
+ * ----------------------------------------------------- */
+ul.reviewInfo {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+ul.reviewInfo li {
+    display: inline;
+    border-left: 1px solid #ccc;
+    padding: 0 5px;
+}
+
+ul.reviewInfo li.first {
+    border: 0;
+}
+
+ul.reviewInfo li.user img {
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+p.reviewDesc {
+    padding: 0 10px;
+    line-height: 1.4;
+}
+
+ul.reviewMove {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ul.reviewMove li {
+    display: inline;
+    padding: 1px 5px;
+    color: #666;
+}
+
+ul.reviewMove li.prev {
+    border-right: 1px solid #ccc;
+}
+
+ul.reviewMore {
+    text-align: right;
+}
+
+ul.reviewMore li {
+    margin-bottom: 10px;
+}
+
+ul.reviewMore li.contribute {
+    text-align: center;
+}
+
+ul.reviewPhoto {
+    margin-bottom: 10px;
+}
+
+ul.reviewPhoto li {
+    float: left;
+    display: inline;
+    margin: 0 2px;
+    font-size: 90%;
+}
+
+ul.reviewPhoto li img {
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin-bottom: 3px;
+}
+
+
+/* -------------------------------------------------------
+ * ETC
+ * ----------------------------------------------------- */
+
+.str120{
+	color: #cc0000;
+	font-size: 120%;
+}
+.str140{
+	color: #cc0000;
+	font-size: 140%;
+}
+.ttlRSmall {
+	font-weight: normal;
+	font-size: 83%;
+	margin-left: 5px;
+}
+.ttlRSmall a {
+	text-decoration: underline;
+}
+span.snowfallSign {
+	color: #cc0000;
+	font-weight: bold;
+	font-size: 150%;
+	margin-right: 5px;
+}
+
+span.liftUpdate {
+	font-size: 70%;
+	margin-left: 10px;
+	font-weight: normal;
+}
+
+p.liftText {
+	color: #cc0000;
+	line-height: 1.3;
+	font-size: 70%;
+	padding: 10px;
+}
+
+ul.eachLift li {
+	margin-bottom: 3px;
+}
+
+ul.eachLift li span {
+	font-size: 111%;
+}
+
+ul.socialBtn {
+	padding: 10px;
+	background: #eee;
+	margin: 20px 10px 10px;
+}
+
+ul.socialBtnHeader {
+	text-align: right;
+	margin: -10px 0 10px;
+}
+
+ul.socialBtnHeader li {
+	display: inline;
+	margin-left: 8px;
+}
+
+p.openDesc {
+	color: #cc0000;
+	line-height: 1.3;
+	font-size: 70%;
+	padding: 5px 0 0;
+}

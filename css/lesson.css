@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：lesson.css
+　概要：SNOWAY LESSONのCSSに関する記述をしています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * トップ
+ * ----------------------------------------------------- */
+
+ul#topSelect{
+	width: 630px;
+}
+ul#topSelect li.L{
+	float: left;
+}
+ul#topSelect li.R{
+	float: right;
+}
+
+.infoL3{
+	float: left;
+	width: 300px;
+        margin-bottom: 20px;
+}
+.infoR3{
+	float: right;
+	width: 440px;
+	line-height: 140%;
+}
+
+.infoR3 dt{
+	font-weight: bold;
+	font-size: 120%;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 0 5px 5px 5px;
+}
+
+.infoR li{
+        font-weight: bold;
+	padding: 2px 10px 2px 20px;
+	background: transparent url(/img/common/arrow_right_grey.gif) no-repeat 10px center;
+}
+
+
+
+/* -------------------------------------------------------
+ * 本紹介
+ * ----------------------------------------------------- */
+
+#lessonBook li{
+	padding: 10px;
+}
+#lessonBook li.check{
+	background: #eee;
+}
+#lessonBook .L{
+	float: left;
+	width: 70px;
+}
+#lessonBook .R{
+	float: right;
+	width: 650px;
+}
+#lessonBook dt{
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 120%;
+}
+#lessonBook dd{
+	line-height: 140%;
+}
+
+
+/* -------------------------------------------------------
+ * スノーボードをはじめよう
+ * ----------------------------------------------------- */
+
+.lessonMenu{
+	padding: 10px;
+	background: #eee;
+}
+.lessonMenu li{
+	float: left;
+	padding: 2px 5px;
+	border-right: 1px solid #ccc;
+	white-space: nowrap;
+}
+.lessonMenu li.end{
+	border-right: none;
+}
+.lessonMenu li.on{
+	font-weight: bold;
+}
+.setumei dt{
+	font-weight: bold;
+	padding: 10px 10px 5px 10px;
+}
+.setumei dd{
+	padding: 5px 10px 10px 10px;
+	line-height: 140%;
+}
+.setumei .boa{
+	padding-left: 20px;
+	background: transparent url(/img/common/icn/icn_board_16.gif) no-repeat left top;
+}
+.setumei .check{
+	background: #eee;
+}
+.boardP .L{
+	float: left;
+	width: 180px;
+}
+.boardP .R{
+	float: right;
+	width: 460px;
+	line-height: 1.4;
+}
+
+
+
+#lesson-board-dl dt{
+  padding: 5px 0 2px 0;
+}
+#lesson-board-dl dd{
+  padding: 2px 0 5px 10px;
+  border-bottom: 1px dotted #cccccc;
+}
+.lesson-board-menu{
+  border: 1px solid #cccccc;
+  padding: 10px 5px;
+  margin: 10px 0;
+}
+.lesson-board-menu li{
+  padding: 0 5px;
+  display: inline;
+  border-left: 1px solid #cccccc;
+}
+.lesson-board-menu li.on{
+  font-weight: bold;
+}
+.lesson-board-menu li#end{
+  border-right: 1px solid #cccccc;
+}
+h5.lesson-knowhow-menu{
+  border-left: 5px solid #2d5dc6;
+  background: #eeeeee;
+  padding: 3px 5px 3px 10px;
+  margin-top: 10px;
+  font-size: 100%;
+}
+
+.setumei .ski{
+	padding-left: 20px;
+	background: transparent url(/img/common/icn/icn_ski_16.gif) no-repeat left top;
+}

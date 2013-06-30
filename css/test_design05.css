@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+body {
+	color: #333333;
+	background: #dae5ed;
+}
+
+a {
+	color: #0095ff;
+}
+
+a:visited {
+	color: #9933cc;
+}
+
+.box a,
+a.box {
+	color: #0095ff;
+}
+
+.box a:visited,
+a.box:visited {
+	color: #9933cc;
+}
+
+
+h1.blog-title {
+	font-size: 20px;
+	color: #fff;
+	height: 40px;
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0, #2e9eef),color-stop(1, #188fe6));
+	text-shadow: 0px 1px 1px #666666;
+}
+
+
+p.pagetop {}
+
+p.pagetop a {}
+
+
+/* box parts */
+.box {
+	color: #000000;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	box-shadow: 0px 1px 2px #989898;
+	-webkit-box-shadow: 0px 1px 2px #989898;
+	-moz-box-shadow: 0px 1px 2px #989898;
+	background-color: rgba(255,255,255,1);
+}
+
+.box-padding {
+	padding: 10px;
+}
+
+.box-margin {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.title-color {}
+
+.sub-color {
+	 color: #4e4e4e;
+}
+
+
+/* style clear */
+ul.article-list-outer.box {
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	background-color: transparent !important;
+}
+
+ul.article-list-outer.box-margin {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+
+/*
+.article-list.box {
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	background-color: transparent !important;
+}
+
+.article-list.box-margin {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+*/
+
+
+
+/* article list 1 */
+
+ul.article-list-calender div.article-calender span.article-calender-month {
+	background: #289aed;
+}
+
+ul.article-list-gallery li.article-list-outer-2:nth-child(2n+3) div.article-list {
+	margin-left: 5px;
+}
+
+ul.article-list-gallery li.article-list-outer-2:nth-child(even) div.article-list {
+        margin-right: 5px;
+}
+
+
+/* plugin box */
+
+

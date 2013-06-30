@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：sup.css
+　概要：サワマネに関連する基本設定を記述しています 
+
+====================================================== */
+
+#sup-loginbox{
+	width: 250px;
+	/*margin: 10px auto;*/
+	margin: 10px 0;
+}
+
+
+
+/* -------------------------------------------------------
+ * 見出し
+ * ----------------------------------------------------- */
+
+#sup-ttl1{
+	background: transparent url(/img/common/sup_ttl_bg1.gif) no-repeat left top;
+	font-size: 22px;
+	min-height: 32px;
+	font-weight: bold;
+	padding: 8px 10px 0 23px;
+	color: #666;
+}
+* html #sup-ttl1{
+	height: 32px;
+}
+#sup-ttl1 span{
+	color: #4e7ed0;
+	margin-left: 15px;
+	font-size: 12px;
+}
+#sup-ttl2{
+	background: #b1c1e3 url(/img/common/sup_ttl_bg2.gif) no-repeat left bottom;
+	font-size: 120%;
+	padding: 3px 10px 3px 23px;
+	font-weight: bold;
+	min-height: 18px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+* html #sup-ttl2{
+	height: 18px;
+}
+
+
+
+//↓要修正
+
+/*	
+h3{
+  background: url(/img/common/ttl_blue_l.gif) no-repeat bottom left;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 22px;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 110%;
+}
+*/
+
+
+
+
+
+
+
+.sup-wrap{
+  margin-bottom: 20px;
+}
+#sup-form{
+  text-align: center;
+}
+
+.logout{
+  margin: 10px 0;
+}
+
+.img1{
+  float: left;
+  margin: 10px 0;
+}
+.text1{
+/*  float: right;*/
+  margin: 10px;
+}
+
+
+/* -------------------------------------------------------
+ * テーブル
+ * ----------------------------------------------------- */
+
+/* フォーム用テーブル */
+.sup-form-table th span{
+	font-size: 80%;
+	color: red;
+}
+.sup-form-table td span.td-text{
+	font-size: 90%;
+	color: #666666;
+}
+.sup-form-table{
+	border-collapse: collapse;
+	width: 98%;
+
+}
+.sup-form-table th,
+.sup-form-table td{
+	padding: 5px;
+	border: 1px solid #9ab8f7;
+}
+.sup-form-table th{
+	white-space: nowrap;
+	background: url(/img/common/tbl_bg1.gif) repeat left top;
+}
+.sup-form-table input,
+.sup-form-table textarea{
+	border: 1px solid #9ab8f7;
+	scrollbar-base-color: #9ab8f7;
+}
+.sup-form-table input.input-300{
+	width: 300px;
+}
+.sup-form-table input.noborder{
+	border: 0;
+}
+
+
+
+
+/* -------------------------------------------------------
+ * メニュー
+ * ----------------------------------------------------- */
+div.leftbox{
+  float: left;
+  width : 200px;
+  border :1px solid #ccc;
+  margin: 0 15px 0 0;
+}
+
+div#side_menu{
+  margin: 0 0 10px 0;
+}
+
+#side_menu dl dt,#side_menu dl dd{
+  margin : 0;
+}
+
+#side_menu dt{
+  border-bottom: solid 1px #ccc;
+  background-color: #fff;
+  padding: 3px;
+}
+
+#side_menu dl dd a,#side_menu dl dt a:visited{
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  text-indent: 22px;
+  background: url("/img/sup/side_pagemenu_bg.gif") no-repeat 0 0;
+}
+#side_menu dl dd a:hover{
+  display: block;
+  height: 26px;
+  background: url("/img/sup/side_pagemenu_bg.gif") no-repeat 0 -26px;
+}
+
+
+
+
+
+/* -------------------------------------------------------
+ * 枠
+ * ----------------------------------------------------- */
+
+div#wrap_news{
+  margin: 0 0 0 215px;
+}
+
+
+/* -------------------------------------------------------
+ * フォーム
+ * ----------------------------------------------------- */
+.sup-submit-left{
+  float: left;
+  width: 45%;
+  margin: 0 20px 0 0;
+  text-align: right;
+}
+.sup-submit-right{
+  float: right;
+  width: 45%;
+  text-align: left;
+}
+
+input.sup-submit{
+  padding: 3px 10px;
+  margin: 3px 0;
+  color: #fff;
+  border: 1px solid #cccccc;
+  letter-spacing: 3px;
+  background: #4271d0;
+}
+
+input.input-submit3{
+  padding: 3px 10px;
+  margin: 0 0 10px 0;
+  color: #fff;
+  border: 1px solid #cccccc;
+  letter-spacing: 3px;
+}
+
+input.input-submit3{
+  background: #4271d0;
+}
+
+
+/* ログインフォーム */
+#loginform{
+  margin-bottom: 10px;
+}
+#loginform input.inputtext{
+  width: 120px;
+  font-size: 120%;
+  color: #0033ff;
+}
+#loginform td{
+  font-size: 80%;
+  text-align: right;
+}
+#loginform h4{
+  background: #84a2dc url(/img/common/bg_ttl_hdr.gif) no-repeat left top;
+  color: #fff;
+  padding-left: 20px;
+  font-size: 100%;
+  line-height: 22px;
+  padding-top: 1px;
+}
+#loginbody{
+  border: 1px solid #cccccc;
+  background: #e9e9e9;
+  padding: 10px;
+  text-align: center;
+}
+#loginbody table{
+  margin: 0 0 10px 0;
+}
+
+/* -------------------------------------------------------
+ * 部品
+ * ----------------------------------------------------- */
+.mt20{
+	margin-top: 20px;
+}
+
+/* -------------------------------------------------------
+ * その他
+ * ----------------------------------------------------- */
+.pager-link{
+  margin: 5px 20px;
+  text-align: right;
+}
+

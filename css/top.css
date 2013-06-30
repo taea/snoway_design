@@ -1,0 +1,92 @@
+
+/* 見出しタイトル */
+.ttl-bg2{
+  background: url(/img/common/ttl_s_bg2.gif) repeat-y left top;
+}
+.ttl-bg2 h2{
+  background: url(/img/common/ttl_s_bg.gif) no-repeat bottom left;
+  line-height: 25px;
+  min-height: 25px;
+  _height: 25px;
+  padding-left: 15px;
+  font-size: 110%;
+}
+.ttl-ss-bg{
+  background: url(/img/common/ttl_ss_bg2.gif) repeat-y left top;
+}
+.ttl-ss-bg h4{
+  background: url(/img/common/ttl_ss_bg.gif) no-repeat bottom left;
+  line-height: 20px;
+  min-height: 20px;
+  _height: 20px;
+  padding-left: 10px;
+  font-size: 110%;
+}
+
+.ttl-bg3{
+  background: url(/img/common/ttl_s_bg2.gif) repeat-y left top;
+  position: relative;
+}
+.ttl-bg3 h2{
+  background: url(/img/common/ttl_s_bg.gif) no-repeat bottom left;
+  line-height: 25px;
+  min-height: 25px;
+  _height: 25px;
+  padding-left: 15px;
+  padding-right: 73px;
+  font-size: 110%;
+}
+.ttl-bg3 img{
+  position: absolute;
+  top: 0;right: 5px;
+}
+
+
+/* トップ */
+#top-search{
+  padding: 10px;
+  background: #cccccc;
+  margin: 10px 0;
+}
+#top-search h3{
+  display: inline;
+  font-weight: normal;
+  font-size: 100%;
+  margin-right: 10px;
+}
+#top-search .input-keyword{
+  width: 300px;
+}
+#top-rank{
+  margin-bottom: 10px;
+}
+#top-rank td{
+  border-bottom: 1px solid #eeeeee;
+}
+
+.top-review{
+  background: #eeeeee;
+  padding: 5px 3px;
+  position: relative;
+  margin-top: 7px;
+}
+.top-review h3{
+  font-size: 100%;
+}
+.top-review div{
+  position: absolute;
+  top: 0; right: 2px;
+  margin: 100px;
+  font-size: 80%;
+  color: #666666;
+  margin: 7px 0;
+}
+.top-review-box{
+  line-height: 140%;
+  margin-top: 5px;
+}
+.top-review-box p{
+  margin: 0;
+  padding: 2px 0;
+  border-bottom: 1px dotted #cccccc;
+}

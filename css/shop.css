@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：shop.css
+　概要：SNOWAY SHOPのCSSに関する記述をしています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * 都道府県
+ * ----------------------------------------------------- */
+
+.shopIcon{
+	margin-bottom: 10px;
+	text-align: right;
+}
+.shopIcon li{
+	display: inline;
+	margin-left: 20px;
+}
+.shopIcon li img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+/* -------------------------------------------------------
+ * EACH
+ * ----------------------------------------------------- */
+
+.geL{
+	float: left;
+	width: 250px;
+}
+.geR{
+	float: right;
+	width: 380px;
+}
+
+/* -------------------------------------------------------
+ * TOP
+ * ----------------------------------------------------- */
+
+.shopTopImage{
+	text-align: center;
+}
+.shopTopImage li{
+	display: inline;
+}
+.shopTopImage li img{
+	margin: 0 2px;
+}
+
+.popularArea li{
+	float: left;
+	padding: 5px 5px;
+	white-space: nowrap;
+}
+
+.plaL{
+	float: left;
+	width: 400px;
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+.plaR{
+	float: right;
+	width: 200px;
+}
+
+/* -------------------------------------------------------
+ * ニュース
+ * ----------------------------------------------------- */
+.newsList dt{
+	font-size: 120%;
+	font-weight: bold;
+	padding: 10px 10px 5px 30px;
+	background: transparent url(/img/common/icn/icn_mountain_16.gif) no-repeat 10px 10px;
+}
+.newsList dt strong{
+	font-size: 111%;
+}
+.newsList dt span{
+	font-size: 70%;
+	color: #666;
+	margin-left: 10px;
+}
+.newsList dd{
+	line-height: 1.4;
+	padding: 5px 10px 10px;
+}
+.newsList dd.check{
+	background: #ddd;
+}
+.newsList dt.check{
+	background: #ddd url(/img/common/icn/icn_mountain_16.gif) no-repeat 10px 10px;
+}
+.newsList dd.title{
+	padding: 5px 10px 0 30px;
+	font-size: 120%;
+	background: transparent url(/img/common/icn/icn_review_16.gif) no-repeat 10px 5px;
+}
+.newsList dd.title.check{
+	background: #ddd url(/img/common/icn/icn_review_16.gif) no-repeat 10px 5px;
+}
+.newsList dd img{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+/* -------------------------------------------------------
+ * サワマネ
+ * ----------------------------------------------------- */
+
+.sawamane{
+	padding: 9px;
+	background: #efefef;
+	border: 1px solid #ccc;
+}
+.sawamane .title{
+	font-size: 120%;
+	color: #cc0000;
+	margin-bottom: 10px;
+}
+.sawamane .L{
+	float: left;
+	width: 50px;
+}
+.sawamane .R{
+	float: right;
+	width: 570px;
+}
+
+ul#shop-top-image li{
+  display: inline;
+}
+#shop-board-dl{
+  margin: 10px;
+}
+#shop-board-dl dt{
+  padding: 5px 0 2px 0;
+}
+#shop-board-dl dd{
+  padding: 2px 0 5px 10px;
+  border-bottom: 1px dotted #cccccc;
+}
+h5.shop-knowhow-menu{
+  border-left: 5px solid #2d5dc6;
+  background: #eeeeee;
+  padding: 3px 5px 3px 10px;
+  margin-top: 10px;
+  font-size: 100%;
+}
+
+img.shop-img{
+  float: left;
+  margin: 0 10px 10px 0;
+}

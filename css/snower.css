@@ -1,0 +1,670 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：snower.css
+　概要：SNOWAY MA PAGEのCSSに関する記述をしています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * レイアウト
+ * ----------------------------------------------------- */
+
+#ercolL{
+	width: 230px;
+	float: left;
+}
+#ercolR{
+	width: 720px;
+	float: right;
+}
+
+.snowerMenu{
+	margin-bottom: 10px;
+	text-align: right;
+}
+.snowerMenu li{
+	display: inline;
+	margin-left: 10px;
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+div.snowerL {
+    width: 355px;
+    float: left;
+}
+
+div.snowerR {
+    width: 355px;
+    float: right;
+}
+
+div.snowerTopL {
+    width: 320px;
+    float: left;
+}
+
+div.snowerTopR {
+    width: 320px;
+    float: right;
+}
+
+
+/* -------------------------------------------------------
+ * 新メニュー
+ * ----------------------------------------------------- */
+ul.snowerNavi {
+    float: left;
+    width: 450px;
+    font-size: 14px;
+}
+
+ul.snowerTool {
+    float: right;
+    width: 450px;
+    font-size: 14px;
+    text-align: right;
+}
+
+ul.snowerNavi li {
+    display: inline;
+    white-space: nowrap;
+    padding: 0 8px;
+    background: url(/img/common/bg_ttl_border.gif) no-repeat right top;
+}
+ul.snowerNavi li span {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+ul.snowerNavi li,
+ul.snowerNavi li a {
+    color: #fff;
+}
+
+ul.snowerTool li {
+    display: inline;
+    white-space: nowrap;
+    padding: 0 8px;
+    background: url(/img/common/bg_ttl_border.gif) no-repeat left top;
+}
+
+ul.snowerTool li,
+ul.snowerTool li a {
+    color: #fff;
+}
+
+ul.snowerTool li.sendMessage a {
+    background: url(/img/common/icn/icn_mail_16.gif) no-repeat left top;
+    padding-left: 20px;
+}
+
+ul.snowerTool li.addFriend a {
+    background: url(/img/common/icn/icn_friend_16.gif) no-repeat left top;
+    padding-left: 20px;
+}
+
+
+/* -------------------------------------------------------
+ * 左カラム
+ * ----------------------------------------------------- */
+
+/* 左ボックス */
+.erLbox1{
+	background: transparent url(/img/snower/bg_left1.gif) no-repeat left top;
+	padding-top: 15px;
+	margin-bottom: 10px;
+}
+.erLbox2{
+	background: transparent url(/img/snower/bg_left2.gif) repeat-y left top;
+}
+.erLbox3{
+	background: transparent url(/img/snower/bg_left3.gif) no-repeat left bottom;
+	padding: 0 16px 15px 13px;
+}
+
+.recordRed{
+	color: #cc0000 !important;
+	font-size: 111%;
+	margin-right: 5px;
+}
+
+/* 写真など */
+#userBasic .img img{
+	border: 1px solid #ccc;
+}
+#userBasic .name{
+	background: transparent url(/img/common/icn/icn_man_14.gif) no-repeat left center;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 120%;
+	margin-bottom: 5px;
+}
+#userBasic .comment{
+	background: transparent url(/img/snower/bg_fukidashi.gif) no-repeat left top;
+	padding: 12px 6px 6px 6px;
+	min-height: 40px;
+}
+* html #userBasic .comment{
+	height: 40px;
+}
+
+/* ストライプ */
+.erStripe li{
+	padding: 5px 10px;
+	color: #666;
+	background: #e9e9e9;
+}
+.erStripe li span{
+	margin-left: 5px;
+	color: #000;
+	font-weight: bold;
+}
+.erStripe li.check{
+	background: #ddd;
+}
+.erStripe li img{
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.erSki{
+	background: transparent url(/img/common/icn/icn_ski_16.gif) no-repeat left center;
+}
+.erBoa{
+	background: transparent url(/img/common/icn/icn_board_16.gif) no-repeat left center;
+}
+.erSki,.erBoa{
+	padding-left: 20px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #666;
+	min-height: 16px;
+}
+* html .erSki,* html .erBoa{
+	height: 16px;
+}
+
+
+/* -------------------------------------------------------
+ * 見出し
+ * ----------------------------------------------------- */
+
+#sup-ttl1{
+	background: transparent url(/img/common/sup_ttl_bg1.gif) no-repeat left top;
+	font-size: 22px;
+	min-height: 32px;
+	font-weight: bold;
+	padding: 8px 10px 0 23px;
+	color: #666;
+}
+* html #sup-ttl1{
+	height: 32px;
+}
+#sup-ttl1 span{
+	color: #4e7ed0;
+	margin-left: 15px;
+	font-size: 12px;
+}
+#sup-ttl2{
+	background: #b1c1e3 url(/img/common/sup_ttl_bg2.gif) no-repeat left bottom;
+	font-size: 120%;
+	padding: 3px 10px 3px 23px;
+	font-weight: bold;
+	min-height: 18px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+* html #sup-ttl2{
+	height: 18px;
+}
+
+
+/* -------------------------------------------------------
+ * メインカラム
+ * ----------------------------------------------------- */
+
+.erttlBoxS{
+	border: 1px solid #ccc;
+}
+.albumBox{
+	padding: 0 10px;
+	
+}
+.albumBox li{
+	float: left;
+	width: 120px;
+	height: 90px;
+	padding: 4px;
+	border: 1px solid #ccc;
+	margin: 0 3px;
+}
+.albumBox li p{
+	height: 90px;
+	overflow: hidden;
+}
+.albumBox li img{
+	vertical-align: bottom;
+	
+}
+.erttlBoxC{
+	border: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+/*------------------------------------------------------
+ * レビュー一覧
+ * ----------------------------------------------------- */
+div.reviewBox {
+    padding: 10px;
+    background: #f8f8f8;
+}
+
+div.reviewBox.check {
+    background: #eee;
+}
+
+div.reviewBox .title {
+    background: url(/img/common/icn/icn_review_16.gif) no-repeat left top;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+div.reviewBox ul.info {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+div.reviewBox ul.info li {
+    display: inline;
+    border-left: 1px solid #ccc;
+    padding: 0 5px;
+}
+
+div.reviewBox ul.info li.gelande {
+    border: 0;
+}
+
+div.reviewBox p.desc {
+    line-height: 1.4;
+}
+
+
+/* -------------------------------------------------------
+ * 写真一覧
+ * ----------------------------------------------------- */
+
+.photoListL li{
+	margin-bottom: 5px;
+}
+.photoListL li.photo p{
+	border: 1px solid #ccc;
+	padding: 4px;
+	width: 340px;
+}
+.photoListL li.comment{
+	background: transparent url(/img/common/icn/icn_review_16.gif) no-repeat left center;
+	padding-left: 20px;
+	min-height: 16px;
+}
+.photoListL li.gerande{
+	background: transparent url(/img/common/icn/icn_mountain_16.gif) no-repeat left center;
+	padding-left: 20px;
+	min-height: 16px;
+}
+
+#photoTable td{
+	vertical-align: top;
+	padding-bottom: 20px;
+}
+#photoTable td.L{
+	padding-right: 10px;
+}
+#photoTable td.R{
+	padding-left: 10px;
+}
+
+
+/* -------------------------------------------------------
+ * 滑走記録
+ * ----------------------------------------------------- */
+.recordYear li{
+	float: left;
+	padding: 1px 5px;
+	border-right: 1px solid #ccc;
+}
+.recordYear li.last{
+	border: none;
+}
+.severalDays{
+	padding: 0 5px 10px;
+}
+.severalDays span{
+	font-size: 140%;
+	color: #cc0000;
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+/* NEW */
+div.recordL {
+    float: left;
+    width: 230px;
+}
+
+div.recordR {
+    float: right;
+    width: 480px;
+}
+
+ul.recordInfo {
+    font-size: 12px;
+    padding: 10px 10px 2px;
+}
+
+ul.recordInfo .severalDaysImage {
+    width: 50px;
+    height: 50px;
+    background: url(/img/common/snower_dammy.gif) no-repeat left top;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    white-space: nowrap;
+    float: left;
+}
+
+ul.recordInfo .severalDaysImage span {
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    margin-top: 3px;
+}
+
+ul.recordInfo .yearRecoed,
+ul.recordInfo .fromLast,
+ul.recordInfo .ridePer {
+    float: right;
+    width: 150px;
+}
+
+ul.recordInfo .yearRecoed span,
+ul.recordInfo .fromLast span,
+ul.recordInfo .ridePer span {
+    font-weight: bold;
+    margin: 0 3px;
+}
+
+ul.recordInfo .yearRecoed {
+    color: #cc0000;
+}
+
+p.recordMessage {
+    margin: 0 0 10px 10px;
+    width: 170px;
+    height: 20px;
+    font-size: 12px;
+    background: url(/img/snower/record_fukidashi.gif) no-repeat left top;
+    padding: 12px 10px 0 10px;
+}
+
+
+/* -------------------------------------------------------
+ * お気に入りゲレンデ
+ * ----------------------------------------------------- */
+ol.favoriteGelande span.rank {
+    font-weight: bold;
+    margin: 0 5px 0 0;
+    padding-left: 20px;
+}
+
+ol.favoriteGelande span.rank1 {
+    background: url(/img/common/icn/icn_medal1_16.gif) no-repeat left top;
+}
+
+ol.favoriteGelande span.rank2 {
+    background: url(/img/common/icn/icn_medal2_16.gif) no-repeat left top;
+}
+
+ol.favoriteGelande span.rank3 {
+    background: url(/img/common/icn/icn_medal3_16.gif) no-repeat left top;
+}
+
+
+/* -------------------------------------------------------
+ * 滑走記録日記
+ * ----------------------------------------------------- */
+.dialyDate{
+	margin: 10px 0;
+}
+.dialyDate{
+	font-size: 111%;
+}
+.dialyGelande{
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.dialyGelande img{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+.dialyBox{
+	margin-bottom: 10px;
+	font-size: 111%;
+	line-height: 1.6;
+}
+.dialyBox img{
+	float: left;
+	margin: 0 10px 10px 0 ;
+}
+
+.dialyOther{
+	margin-bottom: 5px;
+	padding-left: 15px;
+	background: transparent url(/img/common/icon-arrow.gif) no-repeat left center;
+}
+.dialyPage{
+	margin-bottom: 20px;
+	text-align: center;
+	color: #ccc;
+}
+.dialyPage .pre{
+	display: inline;
+	border-right: 1px solid #ccc;
+	padding: 0 5px;
+}
+.dialyPage .next{
+	display: inline;
+	padding: 0 5px;
+}
+.dialyPage a{
+	margin: 0 10px;
+}
+
+.relatedGelande{
+	border: 1px solid #ccc;
+}
+.relatedGelande h2{
+	padding: 5px 10px;
+	background: #eee;
+}
+.relatedGelande ul{
+	padding: 5px 10px;
+}
+.relatedGelande ul li{
+	margin: 5px 0;
+}
+.relatedGelande ul li img{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+/* -------------------------------------------------------
+ * フレンド
+ * ----------------------------------------------------- */
+
+.friendTable{
+	border-collapse: collapse;
+}
+.friendTable td{
+	border: 1px solid #ddd;
+	padding: 10px;
+	width: 80px;
+	vertical-align: top;
+	text-align: center;
+    overflow: hidden;
+}
+.friendTable td img{
+	margin-bottom: 5px;
+}
+
+.friendTable2{
+	border-collapse: collapse;
+    width: 100%;
+}
+.friendTable2 td{
+	border: 1px solid #ddd;
+	padding: 10px 5px;
+	width: 33%;
+	vertical-align: top;
+	text-align: center;
+    overflow: hidden;
+}
+.friendTable2 td img{
+	margin-bottom: 5px;
+}
+
+.friendTextarea{
+	width: 500px;
+}
+.finish{
+	border: 1px solid #ccc;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	color: #cc0000;
+}
+
+.requestTable{
+	border-collapse: collapse;
+	margin-bottom: 30px;
+}
+.requestTable td{
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+
+/* -------------------------------------------------------
+ * メールボックス
+ * ----------------------------------------------------- */
+.mailboxName {
+    padding: 5px 10px;
+    border-bottom: 1px dotted #ccc;
+    color: #666;
+}
+
+.mailboxMsg {
+    padding: 10px;
+    line-height: 1.4;
+}
+
+.mailboxBack {
+    margin: -1.9em 0 10px 0;
+}
+
+.mailboxListAction {
+    margin-top: -1.6em;
+}
+
+.newMessage {
+    font-weight: bold;
+}
+
+.finished {
+    color: #cc0000;
+    margin-bottom: 10px;
+}
+
+ul.snowerAlert li {
+    margin-bottom: 5px;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+ul.snowerAlert li a {
+    color: #cc0000;
+}
+
+/* -------------------------------------------------------
+ * index
+ * ----------------------------------------------------- */
+
+span.snowerLimit {
+    font-size: 70%;
+    font-weight: normal;
+    margin-left: 3px;
+}
+
+.recentSnower th {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.recentSnower td img {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.recentSnower td span {
+    margin-left: 3px;
+    font-size: 90%;
+}
+
+.reviewSnower li span.rank {
+    margin-right: 5px;
+}
+
+.reviewSnower li img {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.reviewSnower li span.count {
+    margin-left: 3px;
+    font-size: 90%;
+}
+
+.reviewSnower li span.nickname {
+    font-weight: bold;
+}
+
+.reviewSnower dl {
+    margin: 8px 0 0 25px;
+}
+
+.reviewSnower dl dt {
+    font-weight: bold;
+    margin-bottom: 3px;
+    background: url(/img/common/icn/icn_review_16.gif) no-repeat left top;
+    padding-left: 20px;
+}
+
+.reviewSnower dl dt span.gelandename {
+    font-weight: normal;
+    margin-left: 5px;
+    font-size: 83%;
+}
+
+.reviewSnower dl dd {
+    line-height: 1.4;
+}
+
+ul.socialBtn {
+	padding: 10px;
+	background: #eee;
+	margin-bottom: 10px;
+}

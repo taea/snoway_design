@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+div.gearCategory {
+	overflow: hidden;
+}
+
+div.gearCategoryBox {
+	float: left;
+	width: 48%;
+	display: inline;
+	margin: 5px 2% 5px 0;
+}
+
+div.gearCategoryBox h3 {
+	font-size: 111%;
+	margin-bottom: 5px;
+}
+
+div.gearCategoryBox ul li {
+	margin-bottom: 3px;
+}
+
+div.gearCategoryBox ul li span {
+	margin-left: 5px;
+	font-size: 83%;
+}
+
+table.makerInfo tr:nth-child(even) th,
+table.makerInfo tr:nth-child(even) td {
+	background: #ddd;
+}
+
+p.makerDesc {
+	padding-bottom: 20px;
+	line-height: 1.4;
+}
+
+div.makerList {
+	padding: 5px 0;
+}       
+        
+div.makerList h3 {
+	font-size: 111%;
+}
+
+div.makerListBox {
+	padding: 5px 10px;
+}
+
+div.makerListBox.check {
+	background: #eee;
+}
+
+ul.gearSearchList {
+	overflow: hidden;
+}
+
+ul.gearSearchList.categoryList {
+	margin-left: 15px;
+}
+
+ul.gearSearchList li {
+	margin: 0 8px 3px 0;
+	float: left;
+	white-space: nowrap;
+	border-right: 1px solid #ccc;
+	padding-right: 8px;
+}
+
+ul.gearSearchList li.last,
+ul.gearSearchList li:last-child {
+	padding: 0;
+	margin-right: 0;
+	border: 0;
+}

@@ -1,0 +1,13 @@
+.occhanL{
+	float: left;
+	width: 400px;
+}
+.occhanR{
+	float: right;
+	width: 240px;
+    text-align: center;
+}
+.kansei span{
+	color: #cc0000;
+	font-weight: bold;
+}

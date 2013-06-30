@@ -1,0 +1,271 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：event.css
+　概要：SNOWAY EVENTのCSSに関する記述をしています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * レイアウト
+ * ----------------------------------------------------- */
+
+#ttl1s{
+	background: transparent url(/img/common/event_ttl_bg1s.gif) no-repeat left top;
+	font-size: 22px;
+	min-height: 32px;
+	font-weight: bold;
+	padding: 8px 10px 0 23px;
+	color: #666;
+}
+* html #ttl1s{
+	height: 32px;
+}
+#ttl1s span{
+	color: #76ce46;
+	margin-left: 15px;
+	font-size: 12px;
+}
+#ttl2s{
+	background: #d0e7be url(/img/common/event_ttl_bg2s.gif) no-repeat left bottom;
+	font-size: 120%;
+	padding: 3px 10px 3px 23px;
+	font-weight: bold;
+	min-height: 18px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+* html #ttl2s{
+	height: 18px;
+}
+
+#ttl1l{
+	background: transparent url(/img/common/event_ttl_bg1.gif) no-repeat left top;
+	font-size: 22px;
+	min-height: 32px;
+	font-weight: bold;
+	padding: 8px 10px 0 23px;
+	color: #666;
+}
+* html #ttl1l{
+	height: 32px;
+}
+#ttl1l span{
+	color: #76ce46;
+	margin-left: 15px;
+	font-size: 12px;
+}
+#ttl2l{
+	background: #d0e7be url(/img/common/event_ttl_bg2.gif) no-repeat left bottom;
+	padding: 3px 2px;
+	min-height: 18px;
+	color: #fff;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+* html #ttl2l{
+	height: 18px;
+}
+
+.eventText{
+	background: #eee;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	line-height: 1.4;
+}
+.eventText .btn{
+	text-align: center;
+	margin-top: 10px;
+}
+.eventText .text2{
+	float: left;
+	width: 750px;
+}
+.eventText .btn2{
+	float: right;
+	width: 165px;
+	padding-top: 7px;
+}
+
+.message{
+	color: #cc0000;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/* -------------------------------------------------------
+ * メニュー
+ * ----------------------------------------------------- */
+
+#ttl2l li{
+	display: inline;
+	background: transparent url(/img/event/menu_border.gif) no-repeat right 50%;
+	padding: 0 8px;
+}
+#ttl2l li a{
+	color: #fff;
+}
+
+#eventTtl{
+	position: relative;
+}
+#eventTtl img.icon{
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+
+
+/* -------------------------------------------------------
+ * EACH
+ * ----------------------------------------------------- */
+.eventR{
+	float: right;
+	width: 180px;
+}
+.eventL{
+	float: left;
+	width: 400px;
+	border-right: 1px solid #ddd;
+	padding-right: 20px;
+}
+.eventRL{
+	float: left;
+	width: 50px;
+}
+.eventRR{
+	float: right;
+	width: 120px;
+}
+.eventRR img{
+	margin-bottom: 5px;
+}
+.eventRR span{
+	color: #999;
+	font-size: 80%;
+}
+.eventR .member{
+	margin-top: 10px;
+}
+.eventR .member li{
+	margin-bottom: 5px;
+}
+.eventR .member li img{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.eventL .desc{
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+.eventTable th,
+.eventTable td{
+	padding: 5px;
+}
+.eventTable th{
+	font-weight: normal;
+	text-align: right;
+	color: #999;
+}
+.eventTable td.date{
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.photoBox{
+	float: right;
+	width: 200px;
+}
+.commentBox{
+	float: left;
+	width: 430px;
+}
+.commentBox .commentDl dt{
+	padding-top: 10px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	background: transparent url(/img/common/icn/icn_review_16.gif) no-repeat left 10px;
+	padding-left: 20px;
+}
+.commentBox .commentDl dt.start{
+	padding-top: 0;
+	background: transparent url(/img/common/icn/icn_review_16.gif) no-repeat left top;
+}
+.commentBox .commentDl dd.comment{
+	line-height: 1.4;
+	margin-bottom: 5px;
+}
+.commentBox .commentDl dd.author{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.commentBox .commentDl dd.author.end{
+}
+.commentBox .commentDl dd.author img{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+.commentBox .commentDl dd.author span{
+	font-size: 80%;
+	color: #999;
+}
+.photoBox .photoUl li{
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+}
+.photoBox .photoUl li.start{
+	padding-top: 0;
+}
+.photoBox .photoUl li.end{
+}
+.photoBox .photoUl li img.photo{
+	margin-bottom: 5px;
+}
+.photoBox .photoUl li img.userP{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+.stripeTable .snower img{
+	vertical-align: middle;
+	margin-right: 3px;
+}
+
+
+/* -------------------------------------------------------
+ * トップ
+ * ----------------------------------------------------- */
+.eventText .example{
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 5px 0;
+}
+.sort{
+	margin-bottom: 20px;
+}
+.sort li{
+	display: inline;
+	padding: 0 5px;
+	border-right: 1px solid #ccc;
+}
+.sort li.end{
+	border: 0;
+}
+
+
+/* -------------------------------------------------------
+ * 右カラム
+ * ----------------------------------------------------- */
+.gelandeInfo li{
+	margin-bottom: 5px;
+	background: transparent url(/img/common/icon-arrow.gif) no-repeat left 50%;
+	padding-left: 15px;
+}

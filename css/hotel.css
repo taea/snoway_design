@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：hotel.css
+　概要：ホテル/hotel/のCSSに関する記述をしています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * レイアウト
+ * ----------------------------------------------------- */
+
+.geL{
+	float: left;
+	width: 250px;
+}
+.geR{
+	float: right;
+	width: 380px;
+}
+
+.hoL{
+	float: left;
+	width: 250px;
+}
+.hoR{
+	float: right;
+	width: 380px;
+}
+.plaL{
+	float: left;
+	width: 400px;
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+.plaR{
+	float: right;
+	width: 200px;
+}
+
+
+.section{
+	margin-bottom: 20px;
+}
+.hoR p{
+	line-height: 160%;
+}
+
+/* -------------------------------------------------------
+ * ボックス
+ * ----------------------------------------------------- */
+
+
+/* -------------------------------------------------------
+ * EACH
+ * ----------------------------------------------------- */
+
+.hoImg{
+	border: 1px solid #ddd;
+	padding: 4px;
+	width: 240px;
+}
+.moyori li{
+	background: transparent url(/img/common/icon-arrow.gif) no-repeat left center;
+	padding: 0 0 0 20px;
+	margin-bottom: 5px;
+}
+.moyori li.end{
+	margin-bottom: 0;
+}
+.moyori li strong.name{
+	font-size: 140%;
+	margin-right: 10px;
+}
+.otokuTtl{
+	color: #999;
+	margin-bottom: 5px;
+	font-size: 120%;
+}
+.otokuTbl th{
+	padding: 5px;
+}
+.otokuTbl td{
+	padding: 5px 20px 5px 5px;
+}
+.otokuTbl li{
+	background: transparent url(/img/common/icon-arrow.gif) no-repeat left center;
+	padding: 2px 0 2px 20px;
+}
+
+
+/* -------------------------------------------------------
+ * ホテル
+ * ----------------------------------------------------- */
+
+.hLi{
+	width: 110px;
+	margin: 0 8px 0 7px;
+	float: left;
+}
+* html body .hLi{
+	margin: 0 6px 0 6px;
+}
+.hLi li{
+	margin-bottom: 5px;
+}
+.hImage{
+	border: 1px solid #ddd;
+	padding: 4px;
+}
+.hImage img{
+	vertical-align: bottom;
+}
+.hReserve img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+
+/* -------------------------------------------------------
+ * TOP
+ * ----------------------------------------------------- */
+.popularArea li{
+	float: left;
+	padding: 5px 5px;
+	white-space: nowrap;
+}
+.reserveSite th{
+	padding: 5px 5px 10px 10px;
+	width: 1%;
+}
+.reserveSite td{
+	padding: 5px 10px 10px 5px;
+	width: 49%;
+}
+
+
+/* -------------------------------------------------------
+ * ETC
+ * ----------------------------------------------------- */
+
+.str120{
+	color: #cc0000;
+	font-size: 120%;
+}
+.str140{
+	color: #cc0000;
+	font-size: 140%;
+}
+

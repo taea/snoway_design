@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：tour.css
+　概要：SNOWAY ツアーCSSに関する記述をしています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * ツアー
+ * ----------------------------------------------------- */
+ 
+ ul#tour-top-image li{
+  display: inline;
+}
+#tour-board-dl{
+  margin: 5px;
+}
+#tour-board-dl dt{
+  padding: 10px 0 2px 0;
+  font-size: 110%;
+}
+#tour-board-dl dd{
+  padding: 2px 0 10px 10px;
+  border-bottom: 1px dotted #cccccc;
+}
+.tour-board-menu{
+  border: 1px solid #cccccc;
+  padding: 10px 5px;
+  margin: 10px 0;
+}
+.tour-board-menu li{
+  padding: 0 5px;
+  display: inline;
+  border-left: 1px solid #cccccc;
+}
+.tour-board-menu li.on{
+  font-weight: bold;
+}
+.tour-board-menu li#end{
+  border-right: 1px solid #cccccc;
+}
+
+#tour-board-dl dd img.tour-image{
+  float: left;
+  margin-right: 10px;
+}
+#tour-board-dl dd div.tour-text{
+  float: left;
+  width: 440px;
+}
+#tour-board-dl dd div.tour-text ul{
+  margin: 10px 0;
+  background: #eeeeee;
+  padding: 5px;
+}
+#tour-board-dl dd div.tour-text ul li{
+  margin: 3px 0;
+}
+
+dt.dt-kokunai{
+  border-left: 5px solid #2d5dc6;
+  background: #eeeeee;
+  padding: 3px 5px 3px 20px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  font-size: 110%;
+}
+
+p img.kokunai-tour-img{
+  float: left;
+  margin: 10px 5px 10px 5px
+}
+.tour-kaigai-dl{
+  border: 1px dotted #ccc;
+  padding: 10px;
+}
+.tour-kaigai-dl dt{
+  margin-bottom: 2px;
+  padding: 0 5px 2px 5px;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  color: #666;
+}
+.tour-kaigai-dl dd{
+  margin: 0 0 10px 15px;
+  line-height: 140%;
+}
+.tour-right-list{
+  margin-top: 10px;
+}
+.tour-right-list li{
+  margin: 0 0 5px 10px;
+}
+
+.tourArea p{
+	line-height: 140%;
+}
+
+.tourData li{
+	padding: 5px 10px 5px 30px;
+	background: transparent url(/img/kaigai/flag_blue.gif) no-repeat 10px center;
+}
+.tourData li.check{
+	background: #eee url(/img/kaigai/flag_blue.gif) no-repeat 10px center;
+}
+.tourData li a{
+	font-weight: bold;
+	margin-right: 5px;
+}
+.tourData li:hover{
+	background: #feff99 url(/img/kaigai/flag_blue.gif) no-repeat 10px center;
+}
+
+/* ANA */
+#tourAna .L{
+	float: left;
+	width: 120px;
+}
+#tourAna .R{
+	float: right;
+	width: 620px;
+}
+#tourAna .R li{
+	padding: 5px 10px 5px 20px;
+	background: transparent url(/img/kaigai/flag_blue.gif) no-repeat left center;
+}
+
+
+/* -------------------------------------------------------
+ * 検索結果
+ * ----------------------------------------------------- */
+
+.tour-search-ttl{
+  font-size: 120%;
+  padding-left: 15px;
+  background: url(/img/common/icon-arrow.gif) no-repeat left center;
+}
+.tour-result{
+  margin: 10px 0;
+}
+.tour-search-price{
+  font-family: "Arial Black";
+  font-size: 120%;
+  color: #cc0000;
+}
+.form-table th.tour-search-ttl2{
+  white-space: normal;
+}

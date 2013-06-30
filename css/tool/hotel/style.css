@@ -1,0 +1,41 @@
+@charset "euc-jp";
+body {
+    background:#EEEEEE url(http://snoway.jp/img/common/body_bg.gif) repeat-y scroll center top;
+}
+/* -------------------------------------
+#container
+------------------------------------- */
+#container {
+    width:860px;
+    margin:0 auto;
+}
+/* -------------------------------------
+#contents
+------------------------------------- */
+#contents {
+    overflow:hidden;
+    margin-bottom:15px;
+}
+#contents .hotel {
+    background:#ffffff;
+    width:830px;
+    margin:15px auto;
+    overflow:hidden;
+    border-bottom:1px solid #888888;
+    border-left:10px solid #3366cc;
+}
+#contents .hotel .hotelname {
+    float:left;
+    font-size:5em;
+    padding:10px;
+}
+#contents .hotel .hotelbutton {
+    float:right;
+    margin:35px auto;
+    margin-right:15px;
+}
+#contents .hotel input {
+    font:20px arial,sans-serif;
+    margin-bottom:.2em;
+    vertical-align:bottom;
+}

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+　ファイル名：kaigai.css
+　概要：SNOWAY 海外のCSSに関する記述をしています
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * ニュージーランド特集
+ * ----------------------------------------------------- */
+
+.infoL{
+	float: left;
+	width: 206px;
+}
+.infoR{
+	float: right;
+	width: 430px;
+	line-height: 140%;
+}
+.infoL1{
+	float: left;
+	width: 160px;
+}
+.infoR1{
+	float: right;
+	width: 480px;
+	line-height: 140%;
+}
+.infoL2{
+	float: left;
+	width: 480px;
+	line-height: 140%;
+}
+.infoR2{
+	float: right;
+	width: 160px;
+}
+.infoR dt{
+	font-weight: bold;
+	font-size: 120%;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 0 5px 5px 5px;
+}
+.tourData li{
+	padding: 5px 10px 5px 30px;
+	background: transparent url(/img/kaigai/flag_blue.gif) no-repeat 10px center;
+}
+.tourData li.check{
+	background: #eee url(/img/kaigai/flag_blue.gif) no-repeat 10px center;
+}
+.tourData li a{
+	font-weight: bold;
+	margin-right: 5px;
+}
+.tourData li:hover{
+	background: #feff99 url(/img/kaigai/flag_blue.gif) no-repeat 10px center;
+}
+
+.dataL{
+	width: 320px;
+	float: left;
+}
+.dataR{
+	width: 320px;
+	float: right;
+}
+.gra td{
+	text-align: center;
+	padding: 3px;
+	font-weight: bold;
+}
+
+.infoL3{
+	float: left;
+	width: 300px;
+        margin-bottom: 20px;
+}
+.infoR3{
+	float: right;
+	width: 440px;
+	line-height: 140%;
+}
+
+.infoR3 dt{
+	font-weight: bold;
+	font-size: 120%;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 0 5px 5px 5px;
+}
+
+.infoR li{
+        font-weight: bold;
+	padding: 2px 10px 2px 20px;
+	background: transparent url(/img/common/arrow_right_grey.gif) no-repeat 10px center;
+}

@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+/* ======================================================
+
+====================================================== */
+
+
+/* -------------------------------------------------------
+ * レイアウト
+ * ----------------------------------------------------- */
+div.gearMain {
+	float: right;
+	width: 720px;
+}
+
+div.gearSubWrap {
+	float: left;
+	width: 230px;
+}
+
+
+div.gearSub {
+	background: url(/img/snower/bg_left2.gif) repeat-y left top;
+	margin-bottom: 15px;
+}
+
+div.gearSub2 {
+	background: url(/img/snower/bg_left1.gif) no-repeat left top;
+	padding-top: 15px;
+}
+
+div.gearSub3 {
+	background: url(/img/snower/bg_left3.gif) no-repeat left bottom;
+	padding-bottom: 15px;
+}
+
+
+#gearTtl1 {
+	background: url(/img/common/sup_ttl_bg1.gif) no-repeat left top;
+	color: #666;
+	font-size: 22px;
+	font-weight: bold;
+	min-height: 32px;
+	padding: 8px 10px 0 23px;
+}
+
+#gearTtl1 span {
+	color: #4e7eD0;
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+#gearTtl2 {
+	background: #b1c1e3 url(/img/common/sup_ttl_bg2.gif) no-repeat left bottom;
+	color: #fff;
+	font-size: 120%;
+	font-weight: bold;
+	margin-bottom: 20px;
+	min-height: 18px;
+	padding: 3px 10px 3px 23px;
+}
+
+div.gearHeader {
+	margin-bottom: 15px;
+}
+
+p.gearImage {
+	float: left;
+	width: 140px;
+}
+
+div.gearDetail {
+	float: right;
+	width: 570px;
+}
+
+.gearTitle {
+	font-weight: bold;
+	font-size: 160%;
+	padding-bottom: 10px;
+}
+
+ul.gearUl li {
+	padding-bottom: 5px;
+}
+
+ul.gearUl li.gearPrice span {
+	font-size: 140%;
+	color: #cc0000;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+span.gearModel {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+div.gearOthers {
+	padding-top: 10px;
+}
+
+div.gearOthers table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+div.gearOthers th,
+div.gearOthers td {
+	padding: 5px;
+}
+
+div.gearOthers tr.check th,
+div.gearOthers tr.check td {
+	background: #eee;
+}
+
+div.gearSubSection {
+	padding: 0 10px 10px;
+}
+
+div.gearSubSection h2 {
+	font-size: 111%;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+div.gearSubSection h3 {
+	margin-bottom: 3px;
+}
+
+div.gearSubSection ul {
+	padding: 0 0 10px 10px;
+}
+
+div.gearSubSection ul li {
+	line-height: 1.3;
+	margin-bottom: 3px;
+}
+
+div.gearSubSection ul li span {
+	font-size: 83%;
+	margin-left: 5px;
+}
+
+ul.gearSearchList {
+	overflow: hidden;
+}
+
+ul.gearSearchList.categoryList {
+	margin-left: 15px;
+}
+
+ul.gearSearchList li {
+	margin: 0 8px 3px 0;
+	float: left;
+	white-space: nowrap;
+	border-right: 1px solid #ccc;
+	padding-right: 8px;
+}
+
+ul.gearSearchList li.last,
+ul.gearSearchList li:last-child {
+	padding: 0;
+	margin-right: 0;
+	border: 0;
+}
+
+ul.gearSearchList li span {
+	font-size: 83%;
+	margin-left: 3px;
+}
+
+h3.gearSearchTitle {
+	font-size: 111%;
+}
+
+table.stripeItem td {
+	padding: 8px;
+}
+
+td.itemPrice {
+	white-space: nowrap;
+	color: #cc0000;
+	font-size: 126%;
+	font-weight: bold;
+}
+
+td.itemImage {
+	text-align: center;
+}
+
+td.itemBody h3 {
+	font-size: 111%;
+	margin-bottom: 6px;
+	line-height: 1.3;
+}
+
+p.itemDesc {
+	color: #666;
+	line-height: 1.3;
+	margin-bottom: 5px;
+}
+
+p.itemShop {
+	text-align: right;
+	color: #666;
+}
+
+td.itemButton {
+	white-space: nowrap;
+}
+
+p.apiCredit {
+	margin: 10px;
+	text-align: right;
+}
+
+div.makerList {
+	padding: 5px 0;
+}
+
+div.makerList h3 {
+	font-size: 111%;
+}
+
+div.makerList ul {
+	margin-left: 15px;
+}
+
+div.makerListBox {
+	padding: 5px 10px;
+}
+
+div.makerListBox.check {
+	background: #eee;
+}
+
+.gearListTable .thumb {
+	width: 34px;
+}
+.gearListThumb {
+	width: 32px;
+	height: 32px;
+	border: 1px solid #ccc;
+}
