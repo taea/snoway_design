@@ -1,0 +1,377 @@
+@charset "UTF-8";
+/* ======================================================
+ *
+ *　ファイル名：index.css
+ *　概要：SNOWAY TOPのCSSに関する記述をしています
+ *
+ *====================================================== */
+/* -------------------------------------------------------
+ * レイアウト
+ * ----------------------------------------------------- */
+/* line 14, ../../sass/titan/index.sass */
+.topL {
+  width: 320px;
+  float: left;
+}
+
+/* line 18, ../../sass/titan/index.sass */
+.topR {
+  width: 320px;
+  float: right;
+}
+
+/* line 22, ../../sass/titan/index.sass */
+.topL2 {
+  width: 455px;
+  float: left;
+}
+
+/* line 26, ../../sass/titan/index.sass */
+.topR2 {
+  width: 185px;
+  float: right;
+}
+
+/* line 30, ../../sass/titan/index.sass */
+.topL3 {
+  width: 360px;
+  float: left;
+}
+
+/* line 34, ../../sass/titan/index.sass */
+.topR3 {
+  width: 280px;
+  float: right;
+}
+
+/* line 38, ../../sass/titan/index.sass */
+.box {
+  border: 1px solid #cccccc;
+}
+
+/* -------------------------------------------------------
+ * 左カラム
+ * ----------------------------------------------------- */
+/* line 45, ../../sass/titan/index.sass */
+.boxStripe1,
+.boxStripe2 {
+  padding: 7px 10px;
+}
+
+/* line 49, ../../sass/titan/index.sass */
+.boxStripe1 {
+  background: #e9e9e9;
+}
+
+/* line 52, ../../sass/titan/index.sass */
+.boxStripe2 {
+  background: #dddddd;
+}
+
+/* line 55, ../../sass/titan/index.sass */
+.boxStripe1 h3,
+.boxStripe2 h3 {
+  float: left;
+  margin-right: 5px;
+}
+
+/* line 60, ../../sass/titan/index.sass */
+.liStripe li {
+  padding: 5px 10px;
+  color: #666666;
+  background: #e9e9e9;
+}
+
+/* line 65, ../../sass/titan/index.sass */
+.liStripe li.check {
+  background: #dddddd;
+}
+
+/* line 68, ../../sass/titan/index.sass */
+.liStripe li img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* -------------------------------------------------------
+ * PHOTO
+ * ----------------------------------------------------- */
+/* line 76, ../../sass/titan/index.sass */
+.slideBox {
+  background: #eeeeee;
+  position: relative;
+}
+
+/* line 80, ../../sass/titan/index.sass */
+.albumBox {
+  padding: 10px 3px;
+  background: white;
+}
+
+/* line 84, ../../sass/titan/index.sass */
+.albumBox li {
+  float: left;
+  width: 120px;
+  height: 105px;
+  padding: 0 4px;
+  font-size: 80%;
+}
+
+/* line 91, ../../sass/titan/index.sass */
+.albumBox li p {
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 3px;
+}
+
+/* line 96, ../../sass/titan/index.sass */
+.albumBox li img {
+  vertical-align: bottom;
+}
+
+/* -------------------------------------------------------
+ * REVIEW
+ * ----------------------------------------------------- */
+/* line 103, ../../sass/titan/index.sass */
+.reviewGerande {
+  margin-bottom: 8px;
+  background: transparent url(/img/common/icn/icn_snoway_16.gif) no-repeat left top;
+  padding-left: 20px;
+}
+
+/* line 108, ../../sass/titan/index.sass */
+.reviewGerande a {
+  font-weight: bold;
+}
+
+/* line 111, ../../sass/titan/index.sass */
+.reviewGerande img {
+  margin: 0;
+}
+
+/* line 114, ../../sass/titan/index.sass */
+.reviewDl {
+  margin-left: 20px;
+}
+
+/* line 117, ../../sass/titan/index.sass */
+.reviewDl dt {
+  background: transparent url(/img/common/icn/icn_review_16.gif) no-repeat left top;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333333;
+}
+
+/* line 124, ../../sass/titan/index.sass */
+.reviewDl dd {
+  line-height: 140%;
+}
+
+/* -------------------------------------------------------
+ * RANKING
+ * ----------------------------------------------------- */
+/* line 131, ../../sass/titan/index.sass */
+.dlStripe dt,
+.dlStripe dd {
+  color: #666666;
+  background: #e9e9e9;
+}
+
+/* line 136, ../../sass/titan/index.sass */
+.dlStripe dt.check,
+.dlStripe dd.check {
+  background: #dddddd;
+}
+
+/* line 140, ../../sass/titan/index.sass */
+.dlStripe dt {
+  float: left;
+  width: 40px;
+  padding: 5px 5px 5px 10px;
+  text-align: right;
+  height: 16px;
+}
+
+/* line 147, ../../sass/titan/index.sass */
+.dlStripe dd {
+  float: left;
+  width: 248px;
+  padding: 5px 10px 5px 5px;
+  height: 16px;
+}
+
+/* line 153, ../../sass/titan/index.sass */
+.dlStripe dt.rank1 {
+  background: #e9e9e9 url(/img/common/icn/icn_rank1_16.gif) no-repeat 10px center;
+}
+
+/* line 156, ../../sass/titan/index.sass */
+.dlStripe dt.rank2 {
+  background: #dddddd url(/img/common/icn/icn_rank2_16.gif) no-repeat 10px center;
+}
+
+/* line 159, ../../sass/titan/index.sass */
+.dlStripe dt.rank3 {
+  background: #e9e9e9 url(/img/common/icn/icn_rank3_16.gif) no-repeat 10px center;
+}
+
+/* -------------------------------------------------------
+ * 滑走記録
+ * ----------------------------------------------------- */
+/* line 165, ../../sass/titan/index.sass */
+.recordTable td {
+  background: #e9e9e9;
+  padding: 5px;
+}
+
+/* line 169, ../../sass/titan/index.sass */
+.recordTable td.check {
+  background: #dddddd;
+}
+
+/* line 172, ../../sass/titan/index.sass */
+.recordTable td.recordGelande {
+  background: #e9e9e9 url(/img/common/icn/icn_snoway_16.gif) no-repeat left 3px;
+  padding-left: 20px;
+  font-weight: bold;
+  width: 170px;
+}
+
+/* line 178, ../../sass/titan/index.sass */
+.recordTable td.recordGelande.check {
+  background: #dddddd url(/img/common/icn/icn_snoway_16.gif) no-repeat left 3px;
+}
+
+/* line 181, ../../sass/titan/index.sass */
+.recordTable td img {
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+/* -------------------------------------------------------
+ * NEWS
+ * ----------------------------------------------------- */
+/* line 189, ../../sass/titan/index.sass */
+.newsDl {
+  position: relative;
+  min-height: 50px;
+}
+
+/* line 193, ../../sass/titan/index.sass */
+* html .newsDl {
+  height: 50px;
+}
+
+/* line 196, ../../sass/titan/index.sass */
+.newsDl dt {
+  margin-bottom: 5px;
+  font-weight: bold;
+  padding-left: 60px;
+}
+
+/* line 201, ../../sass/titan/index.sass */
+.newsDl dd.date {
+  color: #999999;
+  font-size: 80%;
+  padding-left: 60px;
+}
+
+/* line 206, ../../sass/titan/index.sass */
+.newsDl dd.img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* line 211, ../../sass/titan/index.sass */
+.newsDl dd.img img {
+  margin: 0;
+  border: 1px solid #cccccc;
+}
+
+/* -------------------------------------------------------
+ * SNOWER
+ * ----------------------------------------------------- */
+/* line 219, ../../sass/titan/index.sass */
+.snowerDl {
+  position: relative;
+  min-height: 70px;
+}
+
+/* line 223, ../../sass/titan/index.sass */
+* html .snowerDl {
+  height: 70px;
+}
+
+/* line 226, ../../sass/titan/index.sass */
+.snowerDl dt {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* line 230, ../../sass/titan/index.sass */
+.snowerDl dd.date {
+  color: #666666;
+  font-size: 80%;
+  padding-left: 60px;
+  margin-bottom: 3px;
+}
+
+/* line 236, ../../sass/titan/index.sass */
+.snowerDl dd.img {
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+/* line 241, ../../sass/titan/index.sass */
+.snowerDl dd.img img {
+  margin: 0;
+}
+
+/* line 244, ../../sass/titan/index.sass */
+.snowerDl dd.img img.bor {
+  border: 1px solid #cccccc;
+}
+
+/* line 247, ../../sass/titan/index.sass */
+.voteJunbi {
+  background: #e9e9e9;
+  padding: 10px;
+}
+
+/* line 251, ../../sass/titan/index.sass */
+.reviewDate {
+  font-size: 90%;
+}
+
+/* line 254, ../../sass/titan/index.sass */
+.countReview {
+  font-size: 83%;
+  margin-left: 3px;
+}
+
+/* -------------------------------------------------------
+ * Info
+ * ----------------------------------------------------- */
+/* line 262, ../../sass/titan/index.sass */
+.gelandeInfo .infoTitle {
+  margin-bottom: 5px;
+  background: url(/img/common/icn/icn_snoway_16.gif) no-repeat left top;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+/* line 268, ../../sass/titan/index.sass */
+.gelandeInfo .infoDesc {
+  line-height: 1.3;
+  padding-left: 20px;
+}
+
+/* line 272, ../../sass/titan/index.sass */
+.gelandeInfo .infoDate {
+  font-size: 83%;
+  text-align: right;
+  margin-top: 5px;
+}

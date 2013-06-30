@@ -1,0 +1,682 @@
+@charset "UTF-8";
+/* line 1, ../../sass/titan/common.sass */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 80%;
+  text-align: center;
+  background: #eeeeee url(../img/common/snoway_bg.gif) repeat-y center top;
+  font-family: "Arial", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+/* line 9, ../../sass/titan/common.sass */
+form, h1, h2, h3, h4, h5, ul, li, dl, dt, dd {
+  margin: 0;
+}
+
+/* line 12, ../../sass/titan/common.sass */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 17, ../../sass/titan/common.sass */
+img {
+  border: 0;
+}
+
+/* line 20, ../../sass/titan/common.sass */
+th {
+  font-weight: normal;
+  text-align: left;
+  white-space: nowrap;
+}
+
+/* line 25, ../../sass/titan/common.sass */
+.clear {
+  clear: both;
+}
+
+/* line 28, ../../sass/titan/common.sass */
+label {
+  white-space: nowrap;
+}
+
+/* line 31, ../../sass/titan/common.sass */
+#snoway-wrap {
+  width: 900px;
+  margin: auto;
+}
+
+/* line 35, ../../sass/titan/common.sass */
+#maincontent {
+  width: 868px;
+  margin: auto;
+  text-align: left;
+}
+
+/* line 40, ../../sass/titan/common.sass */
+.maincontent-border {
+  background: url(../img/common/maincontent_border.gif) repeat-y -16px top;
+}
+
+/* line 43, ../../sass/titan/common.sass */
+.maincontent-border:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+}
+
+/*\ */
+/* line 51, ../../sass/titan/common.sass */
+* html .maincontent-border {
+  height: 1em;
+  clear: both;
+  overflow: visible;
+}
+
+/* */
+/* line 58, ../../sass/titan/common.sass */
+#footer {
+  width: 900px;
+  text-align: right;
+  clear: both;
+  margin-top: 15px;
+  font-size: 90%;
+}
+
+/* line 65, ../../sass/titan/common.sass */
+#header {
+  width: 868px;
+  margin: auto;
+  text-align: left;
+}
+
+/* line 70, ../../sass/titan/common.sass */
+#hdr-bg {
+  width: 868px;
+  margin: auto;
+  background: url(../img/common/hdr_bg.jpg) no-repeat left top;
+  height: 75px;
+  text-align: left;
+}
+
+/* line 77, ../../sass/titan/common.sass */
+#hdr-menu {
+  width: 868px;
+  margin: auto;
+  height: 30px;
+  text-align: left;
+}
+
+/* line 83, ../../sass/titan/common.sass */
+#maincontent-gerande {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 87, ../../sass/titan/common.sass */
+#maincontent-gerande h2 {
+  margin-bottom: 10px;
+}
+
+/* line 90, ../../sass/titan/common.sass */
+.btn-right {
+  text-align: right;
+}
+
+/* line 93, ../../sass/titan/common.sass */
+#ftr-bar {
+  background: url(../img/common/ftr_bar.jpg) no-repeat left top;
+  line-height: 18px;
+  text-align: right;
+}
+
+/* line 98, ../../sass/titan/common.sass */
+h1 {
+  width: 313px;
+  margin-left: 7px;
+  float: left;
+  background: url(/img/dammy.gif) no-repeat left top;
+}
+
+/* line 104, ../../sass/titan/common.sass */
+#hdr-bg .ad {
+  width: 468px;
+  margin: 7px 7px 7px 0;
+  float: right;
+}
+
+/* line 109, ../../sass/titan/common.sass */
+span.err {
+  color: red;
+  font-size: 80%;
+  display: block;
+}
+
+/* line 114, ../../sass/titan/common.sass */
+.hid {
+  display: none;
+}
+
+/* ヘッダーディスクリプション */
+/* line 118, ../../sass/titan/common.sass */
+#hdr-description {
+  background: url(../img/common/hdr_bar.jpg) no-repeat left top;
+  line-height: 18px;
+  font-size: 90%;
+  padding-left: 10px;
+  color: #666666;
+  text-align: left;
+}
+
+/* ぱんくず */
+/* line 127, ../../sass/titan/common.sass */
+#pankuzu {
+  font-size: 90%;
+  letter-spacing: 1px;
+  margin: 5px 10px 10px 5px;
+}
+
+/* リンク色設定 */
+/* line 133, ../../sass/titan/common.sass */
+a:visited {
+  color: #3333cc;
+  text-decoration: none;
+}
+
+/* line 137, ../../sass/titan/common.sass */
+a:active {
+  color: #3333cc;
+  text-decoration: underline;
+}
+
+/* line 141, ../../sass/titan/common.sass */
+a:link {
+  color: #3333cc;
+  text-decoration: none;
+}
+
+/* line 145, ../../sass/titan/common.sass */
+a:hover {
+  color: #ff3333;
+  text-decoration: underline;
+}
+
+/* maincontentを左右にわける */
+/* line 150, ../../sass/titan/common.sass */
+#maincontent-left {
+  width: 630px;
+  float: left;
+}
+
+/* line 154, ../../sass/titan/common.sass */
+#maincontent-right {
+  width: 200px;
+  float: right;
+}
+
+/* line 158, ../../sass/titan/common.sass */
+.right-wrap {
+  margin-bottom: 10px;
+}
+
+/* ログインフォーム */
+/* line 162, ../../sass/titan/common.sass */
+#loginform {
+  margin-bottom: 10px;
+}
+
+/* line 165, ../../sass/titan/common.sass */
+#loginform input.inputtext {
+  width: 100px;
+  font-size: 100%;
+  color: #0033ff;
+}
+
+/* line 170, ../../sass/titan/common.sass */
+#loginform td {
+  font-size: 80%;
+}
+
+/* line 173, ../../sass/titan/common.sass */
+#loginform h4 {
+  background: #84a2dc url(/img/common/bg_ttl_hdr.gif) no-repeat left top;
+  color: white;
+  padding-left: 20px;
+  font-size: 100%;
+  line-height: 22px;
+  padding-top: 1px;
+}
+
+/* line 181, ../../sass/titan/common.sass */
+#loginform #loginbody {
+  border: 1px solid #cccccc;
+  background: #e9e9e9;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 187, ../../sass/titan/common.sass */
+#logintable {
+  margin: 0 10px;
+  text-align: left;
+}
+
+/* line 191, ../../sass/titan/common.sass */
+#footer address {
+  font-style: normal;
+}
+
+/* box */
+/* line 195, ../../sass/titan/common.sass */
+.box1 {
+  background: #eeeeee;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* line 200, ../../sass/titan/common.sass */
+.box2 {
+  border: 1px dotted #cccccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 205, ../../sass/titan/common.sass */
+.hanyou-box200 {
+  margin-bottom: 10px;
+}
+
+/* line 208, ../../sass/titan/common.sass */
+.hanyou-box200 h4 {
+  background: #eeeeee url(/img/common/bg_ttl_hdr_g.gif) no-repeat left top;
+  padding-left: 20px;
+  font-size: 100%;
+  line-height: 22px;
+  padding-top: 1px;
+}
+
+/* line 215, ../../sass/titan/common.sass */
+.hanyou-body {
+  border: 1px solid #cccccc;
+  padding: 10px;
+}
+
+/* もっと見る */
+/* line 220, ../../sass/titan/common.sass */
+.icon-more {
+  text-align: right;
+}
+
+/* line 223, ../../sass/titan/common.sass */
+.icon-more a {
+  min-height: 11px;
+  _height: 11px;
+  background: url(/img/common/icon-arrow.gif) no-repeat center left;
+  padding-left: 15px;
+  margin: 2px 0;
+}
+
+/* 回り込み解除用 */
+/* line 231, ../../sass/titan/common.sass */
+.float-wrap:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+}
+
+/*\ */
+/* line 239, ../../sass/titan/common.sass */
+* html .float-wrap {
+  height: 1em;
+  clear: both;
+  overflow: visible;
+}
+
+/* */
+/* line 246, ../../sass/titan/common.sass */
+p.top-text {
+  font-size: 80%;
+  color: #666666;
+  margin: 7px 0;
+}
+
+/*#maincontent-left table{
+ *  font-size: 100%;
+ *} */
+/* line 255, ../../sass/titan/common.sass */
+table {
+  font-size: 100%;
+}
+
+/* フォーム用テーブル */
+/* line 259, ../../sass/titan/common.sass */
+.form-table th span {
+  font-size: 80%;
+  color: red;
+}
+
+/* line 263, ../../sass/titan/common.sass */
+.form-table td span.td-text {
+  font-size: 90%;
+  color: #666666;
+}
+
+/* line 267, ../../sass/titan/common.sass */
+.form-table {
+  border-collapse: collapse;
+}
+
+/* line 270, ../../sass/titan/common.sass */
+.form-table th,
+.form-table td {
+  border: 1px solid #9ab8f7;
+}
+
+/* line 274, ../../sass/titan/common.sass */
+.form-table th {
+  white-space: nowrap;
+  background: url(/img/common/tbl_bg1.gif) repeat left top;
+}
+
+/* line 278, ../../sass/titan/common.sass */
+.form-table input,
+.form-table textarea {
+  border: 1px solid #9ab8f7;
+  scrollbar-base-color: #9ab8f7;
+}
+
+/* line 283, ../../sass/titan/common.sass */
+.form-table input.input-300 {
+  width: 300px;
+}
+
+/* line 286, ../../sass/titan/common.sass */
+.form-table input.noborder {
+  border: 0;
+}
+
+/* line 289, ../../sass/titan/common.sass */
+input.input-submit2,
+input.input-submit {
+  padding: 3px 10px;
+  margin: 10px 0;
+  color: white;
+  border: 1px solid #cccccc;
+  letter-spacing: 3px;
+}
+
+/* line 297, ../../sass/titan/common.sass */
+input.input-submit3 {
+  padding: 3px 10px;
+  margin: 0 0 10px 0;
+  color: white;
+  border: 1px solid #cccccc;
+  letter-spacing: 3px;
+}
+
+/* line 304, ../../sass/titan/common.sass */
+input.input-submit,
+input.input-submit3 {
+  background: #4271d0;
+}
+
+/* line 308, ../../sass/titan/common.sass */
+input.input-submit2 {
+  background: #666666;
+}
+
+/* line 311, ../../sass/titan/common.sass */
+.form-submit-left {
+  float: left;
+  width: 45%;
+  text-align: center;
+}
+
+/* line 316, ../../sass/titan/common.sass */
+.form-submit-right {
+  float: right;
+  width: 45%;
+  text-align: center;
+}
+
+/* line 321, ../../sass/titan/common.sass */
+p.comment {
+  font-size: 90%;
+  margin: 0 0 10px 0;
+}
+
+/* line 325, ../../sass/titan/common.sass */
+.hotel-table {
+  border-bottom: 1px solid #999999;
+  padding: 10px 0;
+}
+
+/* line 329, ../../sass/titan/common.sass */
+.hotel-table .hotel-img {
+  vertical-align: top;
+  width: 80px;
+}
+
+/* line 333, ../../sass/titan/common.sass */
+.hotel-table .hotel-name,
+.hotel-table .hotel-address,
+.hotel-table .hotel-trafic,
+.hotel-table .hotel-description {
+  border-bottom: 1px dotted #cccccc;
+}
+
+/* line 339, ../../sass/titan/common.sass */
+.hotel-table .hotel-name {
+  background: url(/img/common/bg_ttl_left.gif) repeat-y top left;
+  padding-left: 7px;
+}
+
+/* line 343, ../../sass/titan/common.sass */
+.hotel-table ul {
+  text-align: right;
+  margin: 5px 0;
+}
+
+/* line 347, ../../sass/titan/common.sass */
+.hotel-table li {
+  display: inline;
+  margin-left: 10px;
+}
+
+/* line 351, ../../sass/titan/common.sass */
+#hotel-plan {
+  text-align: left;
+  margin: 5px 0;
+  background: #ffeeff;
+  border: 1px dotted #cccccc;
+  padding: 10px;
+}
+
+/* line 358, ../../sass/titan/common.sass */
+#hotel-plan li {
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 362, ../../sass/titan/common.sass */
+#hotel-plan p {
+  text-align: left;
+  margin: 0 0 7px 0;
+  font-weight: bold;
+}
+
+/* line 367, ../../sass/titan/common.sass */
+.hotel-each-img {
+  float: left;
+  margin: 0 5px 5px 0;
+}
+
+/* line 371, ../../sass/titan/common.sass */
+.hotel-table li.hotel-viewdetail {
+  min-height: 11px;
+  _height: 11px;
+  background: url(/img/common/icon-arrow.gif) no-repeat center left;
+  padding-left: 15px;
+}
+
+/* line 377, ../../sass/titan/common.sass */
+.hotel-table li img {
+  vertical-align: middle;
+}
+
+/* line 380, ../../sass/titan/common.sass */
+.pagenavi {
+  margin: 10px 0;
+  padding: 5px;
+  background: #eeeeee;
+}
+
+/* line 385, ../../sass/titan/common.sass */
+.pagenavi ul {
+  margin-top: 5px;
+}
+
+/* line 388, ../../sass/titan/common.sass */
+.pagenavi li {
+  display: inline;
+  border-left: 1px solid #cccccc;
+  padding: 2px 8px;
+}
+
+/* line 393, ../../sass/titan/common.sass */
+.pagenavi li.end {
+  border-right: 1px solid #cccccc;
+}
+
+/* line 396, ../../sass/titan/common.sass */
+.pagenavi li.on {
+  font-weight: bold;
+}
+
+/* line 399, ../../sass/titan/common.sass */
+#gerande-swf,
+#gerande-swf-tbl {
+  float: left;
+}
+
+/* line 403, ../../sass/titan/common.sass */
+#gerande-swf-tbl {
+  margin-top: 20px;
+}
+
+/* line 406, ../../sass/titan/common.sass */
+#nta-wrap {
+  margin-bottom: 10px;
+}
+
+/* フッターリンク */
+/* line 410, ../../sass/titan/common.sass */
+#footer-link {
+  padding: 5 10px;
+  margin-top: 10px;
+  background: #eeeeee;
+}
+
+/* line 415, ../../sass/titan/common.sass */
+#footer-link ul {
+  text-align: center;
+  margin: 5px 0;
+}
+
+/* line 419, ../../sass/titan/common.sass */
+#footer-link ul li {
+  display: inline;
+  padding: 2px 7px;
+  border-left: 1px solid #cccccc;
+}
+
+/* line 424, ../../sass/titan/common.sass */
+#footer-link ul li.end {
+  border-right: 1px solid #cccccc;
+}
+
+/* line 427, ../../sass/titan/common.sass */
+#gerande-open dl {
+  margin: 10px 0;
+}
+
+/* line 430, ../../sass/titan/common.sass */
+#gerande-open dt {
+  padding: 3px 0 1px 0;
+  color: red;
+}
+
+/* line 434, ../../sass/titan/common.sass */
+#gerande-open dd {
+  border-bottom: 1px dotted #cccccc;
+  padding: 1px 0 3px 0;
+}
+
+/* line 438, ../../sass/titan/common.sass */
+#mypage {
+  margin: 5px 0;
+  padding: 3px;
+}
+
+/* line 442, ../../sass/titan/common.sass */
+#top-photo-data {
+  margin: 10px 0;
+}
+
+/* line 445, ../../sass/titan/common.sass */
+#top-photo-data li {
+  float: left;
+  width: 149px;
+  margin: 0 3px;
+  _margin: 0 2px;
+  text-align: center;
+  font-size: 80%;
+  border: 1px solid #cccccc;
+}
+
+/* line 454, ../../sass/titan/common.sass */
+#ads-box1 {
+  margin-bottom: 10px;
+}
+
+/* line 457, ../../sass/titan/common.sass */
+.ad-btn-icon {
+  margin: 0 0 5px 0;
+}
+
+/* line 460, ../../sass/titan/common.sass */
+div.baloon {
+  font-size: 11px;
+  color: #990000;
+  position: absolute;
+  padding-left: 5px;
+  background: url("/img/baloon.gif") no-repeat top left;
+  z-index: 1;
+}
+
+/* line 468, ../../sass/titan/common.sass */
+div.baloon a {
+  color: blue;
+  text-decoration: none;
+  padding: 2px;
+  margin-right: 2px;
+}
+
+/* line 474, ../../sass/titan/common.sass */
+div.baloon a:hover {
+  background-color: #eeeeff;
+}
+
+/* line 477, ../../sass/titan/common.sass */
+div.baloon div {
+  background: url("/img/baloon_right.gif") no-repeat top right;
+  padding: 7px 7px 14px 0;
+  white-space: nowrap;
+}
